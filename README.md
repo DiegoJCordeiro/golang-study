@@ -1,4 +1,4 @@
-<img src="./docs/images/Go-logo.png " width=250>
+<img src="https://github.com/DiegoJCordeiro/DiegoJCordeiro/blob/main/assets/Go-logo.png" width=250>
 
 # Linguagem de Programação - Go
 
