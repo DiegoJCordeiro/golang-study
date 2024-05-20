@@ -19,8 +19,10 @@ func changeUsingPointer(firstValue, secondValue *int32) {
 func lesson8() {
 
 	fmt.Println("Lesson 8 - Pointers")
+
 	var firstValue int32 = 10
 	var secondValue int32 = 10
+
 	changeWithoutUsingPointer(firstValue, secondValue)
 	fmt.Printf("Without Using Pointers - First Value = %d and SecondValue = %d \n", firstValue, secondValue)
 	changeUsingPointer(&firstValue, &secondValue)
