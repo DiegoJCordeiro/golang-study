@@ -23,13 +23,13 @@ type Person interface {
 	ChangeAdmin()
 }
 
-func (client Client) ChangeAdmin() {
+func (client *Client) ChangeAdmin() {
 	client.Admin = !client.Admin
 	fmt.Printf("%s, Client has changed admin status to %v\n", client.Name, client.Admin)
 	fmt.Printf("Client Prototype %+v\n", client)
 }
 
-func fillStructs() Client {
+func fillStructs() *Client {
 
 	var firstAddress Address
 
@@ -45,7 +45,7 @@ func fillStructs() Client {
 	firstClient.Nationality = "Nationality"
 	firstClient.Admin = false
 
-	return firstClient
+	return &firstClient
 }
 
 func lesson7() {
