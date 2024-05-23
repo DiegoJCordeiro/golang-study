@@ -6,7 +6,7 @@ import (
 )
 
 func Lesson11() {
-	fmt.Printf("Lesson 11 - Internal Packages.\n")
+	fmt.Printf("Lesson 11 - Internal Packages\n")
 	packages.ShowPackage()
 	fmt.Println("---")
 }
