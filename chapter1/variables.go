@@ -120,8 +120,8 @@ func showVariables() {
 	fmt.Printf("(Type %T) Variable - Value: %d\n", byteVariable, byteVariable)
 }
 
-// lesson2() is about imports and variables.
-func lesson2() {
+// Lesson2() is about imports and variables.
+func Lesson2() {
 
 	fmt.Println("Lesson 2 - Variables")
 	showVariables()

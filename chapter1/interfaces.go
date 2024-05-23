@@ -24,7 +24,7 @@ func showFit(typeFit TypeFit) {
 	fmt.Printf("Fit Type is: %v\n", typeFit.getFit())
 }
 
-func lesson9() {
+func Lesson9() {
 
 	fmt.Println("Lesson 9 - Interfaces")
 	var physicalPerson = PhysicalPerson{

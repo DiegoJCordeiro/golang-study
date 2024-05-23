@@ -45,7 +45,7 @@ func showMapVariable() {
 	}
 }
 
-func lesson5() {
+func Lesson5() {
 
 	fmt.Println("Lesson 5 - Maps")
 	manipulateMapVariable()

@@ -26,8 +26,8 @@ func iterateArray() {
 	}
 }
 
-// lesson3() is an introduction about arrays.
-func lesson3() {
+// Lesson3() is an introduction about arrays.
+func Lesson3() {
 
 	fmt.Println("Lesson 3 - Arrays")
 	iterateArray()

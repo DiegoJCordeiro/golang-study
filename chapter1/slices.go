@@ -23,7 +23,7 @@ func showInfoSlice() {
 }
 
 func manipulateSlice() {
-	
+
 	var removedFirstPosition = sliceVariable[1:]
 	fmt.Printf("Removed first position = %v\n", removedFirstPosition)
 	var removedLastPosition = sliceVariable[:capacity-1]
@@ -32,7 +32,7 @@ func manipulateSlice() {
 	fmt.Printf("Appended more one data = %v\n", appendedMoreOneData)
 }
 
-func lesson4() {
+func Lesson4() {
 
 	fmt.Println("Lesson 4 - Slices")
 	showInfoSlice()

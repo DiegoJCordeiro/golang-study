@@ -48,7 +48,7 @@ func fillStructs() *Client {
 	return &firstClient
 }
 
-func lesson7() {
+func Lesson7() {
 
 	fmt.Println("Lesson 7 - Structs")
 	var clientPerson Person = fillStructs()

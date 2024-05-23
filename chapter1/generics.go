@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"reflect"
+)
 
 var (
 	firstGeneric  string
@@ -11,23 +14,28 @@ type GenericImplementer struct {
 	name string
 }
 
-type Generics interface{}
+type GenericConstraint interface {
+	~int32 | ~string | GenericImplementer
+}
 
-func processGeneric(generic Generics) {
+func processGeneric[T GenericConstraint](generic T) {
 	fmt.Printf("Processing generic %T: %+v\n", generic, generic)
 }
 
 // Function return Type Assertion
-func convertGenericToInt(generic Generics) int32 {
-	return generic.(int32)
+func convertGeneric[T GenericConstraint](generic T) T {
+
+	isInteger := reflect.TypeOf(generic) == reflect.TypeOf((*int)(nil))
+
+	if isInteger {
+		return generic
+	} else {
+		return generic
+	}
+
 }
 
-// Function return Type Assertion
-func convertGenericToString(generic Generics) string {
-	return generic.(string)
-}
-
-func lesson10() {
+func Lesson10() {
 
 	fmt.Println("Lesson 10 - Generics")
 	firstGeneric = "Hello Generics"
@@ -35,8 +43,8 @@ func lesson10() {
 	thirdGeneric := GenericImplementer{
 		name: "Hello Generics",
 	}
-	processGeneric(convertGenericToString(firstGeneric))
-	processGeneric(convertGenericToInt(secondGeneric))
+	processGeneric(convertGeneric(firstGeneric))
+	processGeneric(convertGeneric(secondGeneric))
 	processGeneric(thirdGeneric)
 	fmt.Println("---")
 }

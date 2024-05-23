@@ -38,8 +38,8 @@ func sumManyValues(values ...int) (int, error) {
 	return total, nil
 }
 
-// lesson6() is about functions variadic, default and returns.
-func lesson6() {
+// Lesson6() is about functions variadic, default and returns.
+func Lesson6() {
 
 	fmt.Println("Lesson 6 - Functions")
 

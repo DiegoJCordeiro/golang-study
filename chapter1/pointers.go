@@ -16,7 +16,7 @@ func changeUsingPointer(firstValue, secondValue *int32) {
 	*secondValue = 30
 }
 
-func lesson8() {
+func Lesson8() {
 
 	fmt.Println("Lesson 8 - Pointers")
 
