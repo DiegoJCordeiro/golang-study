@@ -1,12 +1,12 @@
 package main
 
 import (
-	"chapter1/packages"
 	"fmt"
+	"github.com/DiegoJCordeiro/golang-study/chapter1/packages"
 )
 
 func Lesson11() {
-	fmt.Println("Lesson 11 - Internal Packages.")
+	fmt.Printf("Lesson 11 - Internal Packages.\n")
 	packages.ShowPackage()
 	fmt.Println("---")
 }

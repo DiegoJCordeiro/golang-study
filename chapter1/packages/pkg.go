@@ -3,5 +3,5 @@ package packages
 import "fmt"
 
 func ShowPackage() {
-	fmt.Printf("\n Calling Internal Package.")
+	fmt.Printf("Calling Internal Package.\n")
 }
