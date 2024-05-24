@@ -13,4 +13,5 @@ func main() {
 	Lesson9()
 	Lesson10()
 	Lesson11()
+	Lesson12()
 }

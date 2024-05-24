@@ -17,26 +17,46 @@
 <hr>
 
 
-#### ***Como executar***
+#### **Como executar**
 
-*Através do terminal, entre no diretório do projeto após baixá-lo.*
+*Através do terminal, entre no diretório do projeto, e logo após, entre no diretório do capítulo.*
+
+***Chapter 1:***
 
 ```bash
-cd projeto-go-lang
+cd projeto-go-lang/chapter1
+```
+
+***Chapter 2:***
+
+```bash
+cd projeto-go-lang/chapter2
 ```
 
 *Execute o comando mvn clean (**Maven**) para limpar o build do projeto e mvn install instala-lo.*
 
 **Windows:**
 
+***Chapter 1:***
 ``` bash
-go build -o ./builds/__chapter1.exe ./chapter1/*.go
+go build -o ../builds/__chapter1.exe github.com/DiegoJCordeiro/golang-study/chapter1
+```
+
+***Chapter 2:***
+``` bash
+go build -o ../builds/__chapter2.exe github.com/DiegoJCordeiro/golang-study/chapter2
 ```
 
 **Linux:**
 
+***Chapter 1:***
 ``` bash
-go build -o ./builds/__chapter1.sh ./chapter1/*.go
+go build -o ../builds/__chapter1.sh github.com/DiegoJCordeiro/golang-study/chapter1
+```
+
+***Chapter 2:***
+``` bash
+go build -o ../builds/__chapter2.sh github.com/DiegoJCordeiro/golang-study/chapter2
 ```
 
 *Após executar os comando anteriores, abra a pasta builds, conforme o comando a seguir.*
@@ -49,14 +69,26 @@ cd ./builds
 
 **Windows:**
 
+***Chapter 1:***
 ``` bash
 ./__chapter1.exe
 ```
 
+***Chapter 2:***
+``` bash
+./__chapter2.exe
+```
+
 **Linux**
 
+***Chapter 1:***
 ``` bash
 ./__chapter1.sh
+```
+
+***Chapter 2:***
+``` bash
+./__chapter2.sh
 ```
 
 </br>
@@ -87,8 +119,9 @@ cd ./builds
 *Seção referente as estruturas aplicadas sob o projeto de estudos.*
 
 | Pasta           | Endereço     | Descrição                                                    |
-| --------------- | ------------ | ------------------------------------------------------------ |
+|-----------------|--------------| ------------------------------------------------------------ |
 | ***/chapter1*** | *./chapter1* | Contém todas os arquivos .go necessários durante os de introdução a linguagem Go. |
+| ***/chapter2*** | *./chapter2* | Contém todas os arquivos .go necessários durante os de introdução a linguagem Go. |
 | ***/builds***   | *./builds*   | Contém todos os arquivos compilados referente ao projeto de estudos. |
 | ***/docs***     | *./docs*     | Arquivos de documentação referente aos materiais utilizados. |
 
