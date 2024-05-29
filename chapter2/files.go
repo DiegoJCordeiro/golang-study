@@ -31,7 +31,7 @@ func createFile() {
 
 func writeFile() {
 
-	errWrite := os.WriteFile("./test.txt", []byte("- First Line here."), 777)
+	errWrite := os.WriteFile("/files/test.txt", []byte("- First Line here."), 777)
 
 	if errWrite != nil {
 		panic(errWrite)
