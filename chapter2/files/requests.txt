@@ -1,0 +1,2236 @@
+
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="pt-BR"><head><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){var _g={kEI:'M2hXZrDQN-TlseMPiM-m0AI',kEXPI:'0,793344,2906906,1060,78,17,538640,2872,2891,11754,77401,230,107251,6627,49751,2,16395,23366,6699,41946,57737,2,2,1,6960,19672,8155,23351,22435,9779,12414,30045,20199,73178,3030,15816,1804,47082,476,1156,5259571,8576,890,187,435,40,5991769,2840167,6,46,26707977,1273939,16672,43887,3,318,4,1281,3,2124363,23029351,4117,8682,8409,6577,4177,5348,2,560,5,28022,36870,1922,8589,2370,6407,10491,3355,15164,7968,213,391,5536,27328,16175,10085,11584,4801,1954,155,399,2085,4400,3098,4,2123,3878,7736,8,5155,1437,1426,1114,767,739,3093,206,122,1371,496,781,569,4,126,2878,707,2812,759,1,2487,1411,5717,3,1694,1143,3,119,1452,251,652,837,34,358,161,408,482,3518,3,1272,1460,1572,167,199,3846,95,24,1273,393,3237,988,456,678,267,45,1122,3,7,1299,72,370,23,154,425,33,632,2004,678,581,1027,2,1450,3,335,1082,3,5,1192,3815,10,4,243,11,33,188,787,2,202,116,330,309,765,1933,810,347,32,52,316,374,732,233,452,127,29,2900,279,1746,250,269,510,5,915,797,1301,225,794,374,156,854,466,466,1169,22,264,52,7,1,409,622,1469,1365,2,65,3,236,64,638,410,591,3,7,62,561,73,160,56,358,258,405,244,182,8,8,458,65,276,267,360,106,281,5,2,313,20,32,515,12,132,3,209,305,2,116,102,436,306,141,922,2,141,1392,395,341,1870,269,491,21221562,361371,4267,3,5250,3045,2162,125,5580,1235,185,595,15,147,819',kBL:'eGww',kOPI:89978449};(function(){var a;(null==(a=window.google)?0:a.stvsc)?google.kEI=_g.kEI:window.google=_g;}).call(this);})();(function(){google.sn='webhp';google.kHL='pt-BR';})();(function(){
+var h=this||self;function l(){return void 0!==window.google&&void 0!==window.google.kOPI&&0!==window.google.kOPI?window.google.kOPI:null};var m,n=[];function p(a){for(var b;a&&(!a.getAttribute||!(b=a.getAttribute("eid")));)a=a.parentNode;return b||m}function q(a){for(var b=null;a&&(!a.getAttribute||!(b=a.getAttribute("leid")));)a=a.parentNode;return b}function r(a){/^http:/i.test(a)&&"https:"===window.location.protocol&&(google.ml&&google.ml(Error("a"),!1,{src:a,glmm:1}),a="");return a}
+function t(a,b,c,d,k){var e="";-1===b.search("&ei=")&&(e="&ei="+p(d),-1===b.search("&lei=")&&(d=q(d))&&(e+="&lei="+d));d="";var g=-1===b.search("&cshid=")&&"slh"!==a,f=[];f.push(["zx",Date.now().toString()]);h._cshid&&g&&f.push(["cshid",h._cshid]);c=c();null!=c&&f.push(["opi",c.toString()]);for(c=0;c<f.length;c++){if(0===c||0<c)d+="&";d+=f[c][0]+"="+f[c][1]}return"/"+(k||"gen_204")+"?atyp=i&ct="+String(a)+"&cad="+(b+e+d)};m=google.kEI;google.getEI=p;google.getLEI=q;google.ml=function(){return null};google.log=function(a,b,c,d,k,e){e=void 0===e?l:e;c||(c=t(a,b,e,d,k));if(c=r(c)){a=new Image;var g=n.length;n[g]=a;a.onerror=a.onload=a.onabort=function(){delete n[g]};a.src=c}};google.logUrl=function(a,b){b=void 0===b?l:b;return t("",a,b)};}).call(this);(function(){google.y={};google.sy=[];google.x=function(a,b){if(a)var c=a.id;else{do c=Math.random();while(google.y[c])}google.y[c]=[a,b];return!1};google.sx=function(a){google.sy.push(a)};google.lm=[];google.plm=function(a){google.lm.push.apply(google.lm,a)};google.lq=[];google.load=function(a,b,c){google.lq.push([[a],b,c])};google.loadAll=function(a,b){google.lq.push([a,b])};google.bx=!1;google.lx=function(){};var d=[];google.fce=function(a,b,c,e){d.push([a,b,c,e])};google.qce=d;}).call(this);google.f={};(function(){
+document.documentElement.addEventListener("submit",function(b){var a;if(a=b.target){var c=a.getAttribute("data-submitfalse");a="1"===c||"q"===c&&!a.elements.q.value?!0:!1}else a=!1;a&&(b.preventDefault(),b.stopPropagation())},!0);document.documentElement.addEventListener("click",function(b){var a;a:{for(a=b.target;a&&a!==document.documentElement;a=a.parentElement)if("A"===a.tagName){a="1"===a.getAttribute("data-nohref");break a}a=!1}a&&b.preventDefault()},!0);}).call(this);</script><style>#gbar,#guser{font-size:13px;padding-top:1px !important;}#gbar{height:22px}#guser{padding-bottom:7px !important;text-align:right}.gbh,.gbd{border-top:1px solid #c9d7f1;font-size:1px}.gbh{height:0;position:absolute;top:24px;width:100%}@media all{.gb1{height:22px;margin-right:.5em;vertical-align:top}#gbar{float:left}}a.gb1,a.gb4{text-decoration:underline !important}a.gb1,a.gb4{color:#00c !important}.gbi .gb4{color:#dd8e27 !important}.gbf .gb4{color:#900 !important}
+</style><style>body,td,a,p,.h{font-family:arial,sans-serif}body{margin:0;overflow-y:scroll}#gog{padding:3px 8px 0}td{line-height:.8em}.gac_m td{line-height:17px}form{margin-bottom:20px}.h{color:#1967d2}em{font-weight:bold;font-style:normal}.lst{height:25px;width:496px}.gsfi,.lst{font:18px arial,sans-serif}.gsfs{font:17px arial,sans-serif}.ds{display:inline-box;display:inline-block;margin:3px 0 4px;margin-left:4px}input{font-family:inherit}body{background:#fff;color:#000}a{color:#681da8;text-decoration:none}a:hover,a:active{text-decoration:underline}.fl a{color:#1967d2}a:visited{color:#681da8}.sblc{padding-top:5px}.sblc a{display:block;margin:2px 0;margin-left:13px;font-size:11px}.lsbb{background:#f8f9fa;border:solid 1px;border-color:#dadce0 #70757a #70757a #dadce0;height:30px}.lsbb{display:block}#WqQANb a{display:inline-block;margin:0 12px}.lsb{background:url(/images/nav_logo229.png) 0 -261px repeat-x;color:#000;border:none;cursor:pointer;height:30px;margin:0;outline:0;font:15px arial,sans-serif;vertical-align:top}.lsb:active{background:#dadce0}.lst:focus{outline:none}.Ucigb{width:458px}</style><script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){window.google.erd={jsr:1,bv:2017,de:true};
+var h=this||self;var k,l=null!=(k=h.mei)?k:1,n,p=null!=(n=h.sdo)?n:!0,q=0,r,t=google.erd,v=t.jsr;google.ml=function(a,b,d,m,e){e=void 0===e?2:e;b&&(r=a&&a.message);void 0===d&&(d={});d.cad="ple_"+google.ple+".aple_"+google.aple;if(google.dl)return google.dl(a,e,d,!0),null;b=d;if(0>v){window.console&&console.error(a,b);if(-2===v)throw a;b=!1}else b=!a||!a.message||"Error loading script"===a.message||q>=l&&!m?!1:!0;if(!b)return null;q++;d=d||{};b=encodeURIComponent;var c="/gen_204?atyp=i&ei="+b(google.kEI);google.kEXPI&&(c+="&jexpid="+b(google.kEXPI));c+="&srcpg="+b(google.sn)+"&jsr="+b(t.jsr)+
+"&bver="+b(t.bv);var f=a.lineNumber;void 0!==f&&(c+="&line="+f);var g=a.fileName;g&&(0<g.indexOf("-extension:/")&&(e=3),c+="&script="+b(g),f&&g===window.location.href&&(f=document.documentElement.outerHTML.split("\n")[f],c+="&cad="+b(f?f.substring(0,300):"No script found.")));google.ple&&1===google.ple&&(e=2);c+="&jsel="+e;for(var u in d)c+="&",c+=b(u),c+="=",c+=b(d[u]);c=c+"&emsg="+b(a.name+": "+a.message);c=c+"&jsst="+b(a.stack||"N/A");12288<=c.length&&(c=c.substr(0,12288));a=c;m||google.log(0,"",a);return a};window.onerror=function(a,b,d,m,e){r!==a&&(a=e instanceof Error?e:Error(a),void 0===d||"lineNumber"in a||(a.lineNumber=d),void 0===b||"fileName"in a||(a.fileName=b),google.ml(a,!1,void 0,!1,"SyntaxError"===a.name||"SyntaxError"===a.message.substring(0,11)||-1!==a.message.indexOf("Script error")?3:0));r=null;p&&q>=l&&(window.onerror=null)};})();</script></head><body bgcolor="#fff"><script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){var src='/images/nav_logo229.png';var iesg=false;document.body.onload = function(){window.n && window.n();if (document.images){new Image().src=src;}
+if (!iesg){document.f&&document.f.q.focus();document.gbqf&&document.gbqf.q.focus();}
+}
+})();</script><div id="mngb"><div id=gbar><nobr><b class=gb1>Pesquisa</b> <a class=gb1 href="https://www.google.com/imghp?hl=pt-BR&tab=wi">Imagens</a> <a class=gb1 href="https://maps.google.com.br/maps?hl=pt-BR&tab=wl">Maps</a> <a class=gb1 href="https://play.google.com/?hl=pt-BR&tab=w8">Play</a> <a class=gb1 href="https://www.youtube.com/?tab=w1">YouTube</a> <a class=gb1 href="https://news.google.com/?tab=wn">Not�cias</a> <a class=gb1 href="https://mail.google.com/mail/?tab=wm">Gmail</a> <a class=gb1 href="https://drive.google.com/?tab=wo">Drive</a> <a class=gb1 style="text-decoration:none" href="https://www.google.com.br/intl/pt-BR/about/products?tab=wh"><u>Mais</u> &raquo;</a></nobr></div><div id=guser width=100%><nobr><span id=gbn class=gbi></span><span id=gbf class=gbf></span><span id=gbe></span><a href="http://www.google.com.br/history/optout?hl=pt-BR" class=gb4>Hist�rico da Web</a> | <a  href="/preferences?hl=pt-BR" class=gb4>Configura��es</a> | <a target=_top id=gb_70 href="https://accounts.google.com/ServiceLogin?hl=pt-BR&passive=true&continue=https://www.google.com/&ec=GAZAAQ" class=gb4>Fazer login</a></nobr></div><div class=gbh style=left:0></div><div class=gbh style=right:0></div></div><center><br clear="all" id="lgpd"><div id="lga"><img alt="Google" height="92" src="/images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png" style="padding:28px 0 14px" width="272" id="hplogo"><br><br></div><form action="/search" name="f"><table cellpadding="0" cellspacing="0"><tr valign="top"><td width="25%">&nbsp;</td><td align="center" nowrap=""><input name="ie" value="ISO-8859-1" type="hidden"><input value="pt-BR" name="hl" type="hidden"><input name="source" type="hidden" value="hp"><input name="biw" type="hidden"><input name="bih" type="hidden"><div class="ds" style="height:32px;margin:4px 0"><div style="position:relative;zoom:1"><input class="lst Ucigb" style="margin:0;padding:5px 8px 0 6px;vertical-align:top;color:#000;padding-right:38px" autocomplete="off" value="" title="Pesquisa Google" maxlength="2048" name="q" size="57"><img src="/textinputassistant/tia.png" style="position:absolute;cursor:pointer;right:5px;top:4px;z-index:300" data-script-url="/textinputassistant/13/pt-BR_tia.js" id="tsuid_1" alt="" height="23" width="27"><script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){var id='tsuid_1';document.getElementById(id).onclick = function(){var s = document.createElement('script');s.src = this.getAttribute('data-script-url');document.body.appendChild(s);};})();</script></div></div><br style="line-height:0"><span class="ds"><span class="lsbb"><input class="lsb" value="Pesquisa Google" name="btnG" type="submit"></span></span><span class="ds"><span class="lsbb"><input class="lsb" id="tsuid_2" value="Estou com sorte" name="btnI" type="submit"><script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){var id='tsuid_2';document.getElementById(id).onclick = function(){if (this.form.q.value){this.checked = 1;if (this.form.iflsig)this.form.iflsig.disabled = false;}
+else top.location='/doodles/';};})();</script><input value="AL9hbdgAAAAAZld2Q7RByH7BWOh6q0E6ETzBf0iVAT_e" name="iflsig" type="hidden"></span></span></td><td class="fl sblc" align="left" nowrap="" width="25%"><a href="/advanced_search?hl=pt-BR&amp;authuser=0">Pesquisa avan�ada</a></td></tr></table><input id="gbv" name="gbv" type="hidden" value="1"><script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){var a,b="1";if(document&&document.getElementById)if("undefined"!=typeof XMLHttpRequest)b="2";else if("undefined"!=typeof ActiveXObject){var c,d,e=["MSXML2.XMLHTTP.6.0","MSXML2.XMLHTTP.3.0","MSXML2.XMLHTTP","Microsoft.XMLHTTP"];for(c=0;d=e[c++];)try{new ActiveXObject(d),b="2"}catch(h){}}a=b;if("2"==a&&-1==location.search.indexOf("&gbv=2")){var f=google.gbvu,g=document.getElementById("gbv");g&&(g.value=a);f&&window.setTimeout(function(){location.href=f},0)};}).call(this);</script></form><div id="gac_scont"></div><div style="font-size:83%;min-height:3.5em"><br></div><span id="footer"><div style="font-size:10pt"><div style="margin:19px auto;text-align:center" id="WqQANb"><a href="/intl/pt-BR/ads/">Publicidade</a><a href="/services/">Solu��es empresariais</a><a href="/intl/pt-BR/about.html">Sobre o Google</a><a href="https://www.google.com/setprefdomain?prefdom=BR&amp;prev=https://www.google.com.br/&amp;sig=K_DdohvOD2xF2h5riP9SphaoxzsTc%3D">Google.com.br</a></div></div><p style="font-size:8pt;color:#70757a">&copy; 2024 - <a href="/intl/pt-BR/policies/privacy/">Privacidade</a> - <a href="/intl/pt-BR/policies/terms/">Termos</a></p></span></center><script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){window.google.cdo={height:757,width:1440};(function(){var a=window.innerWidth,b=window.innerHeight;if(!a||!b){var c=window.document,d="CSS1Compat"==c.compatMode?c.documentElement:c.body;a=d.clientWidth;b=d.clientHeight}
+if(a&&b&&(a!=google.cdo.width||b!=google.cdo.height)){var e=google,f=e.log,g="/client_204?&atyp=i&biw="+a+"&bih="+b+"&ei="+google.kEI,h="",k=[],l=void 0!==window.google&&void 0!==window.google.kOPI&&0!==window.google.kOPI?window.google.kOPI:null;null!=l&&k.push(["opi",l.toString()]);for(var m=0;m<k.length;m++){if(0===m||0<m)h+="&";h+=k[m][0]+"="+k[m][1]}f.call(e,"","",g+h)};}).call(this);})();</script>  <script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){google.xjs={basecomb:'/xjs/_/js/k\x3dxjs.hp.en.VytfMUtggTg.O/ck\x3dxjs.hp.UkniX9MByUE.L.X.O/am\x3dAQAAAAIAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQwAEEAAgACAQAAACAHwACAAAAQAQACAIA4CA6AgADcAQRAF4/d\x3d1/ed\x3d1/dg\x3d0/ujg\x3d1/rs\x3dACT90oG-JdrK6zmyeqOtALJccEqEsZRStg',basecss:'/xjs/_/ss/k\x3dxjs.hp.UkniX9MByUE.L.X.O/am\x3dAQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgACAQAAAAAAAACAAAAQAQACAI/rs\x3dACT90oG-6do5iYS5j-XXbrfkTag7LiPJUg',basejs:'/xjs/_/js/k\x3dxjs.hp.en.VytfMUtggTg.O/am\x3dAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQwAEAAAAAAAAAAACAHwAAAAAAAAAAAAAA4CA6AgADcAQRAF4/dg\x3d0/rs\x3dACT90oH7cnNEXtQb7LvCUlfuDK4uVi4MFw',excm:[]};})();</script> <link href="/xjs/_/ss/k=xjs.hp.UkniX9MByUE.L.X.O/am=AQAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAgACAQAAAAAAAACAAAAQAQACAI/d=1/ed=1/rs=ACT90oG-6do5iYS5j-XXbrfkTag7LiPJUg/m=sb_he,d" rel="stylesheet" nonce="svQzMHSJtQJo4mgGDYVyMA">    <script nonce="svQzMHSJtQJo4mgGDYVyMA">(function(){var u='/xjs/_/js/k\x3dxjs.hp.en.VytfMUtggTg.O/am\x3dAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQwAEAAAAAAAAAAACAHwAAAAAAAAAAAAAA4CA6AgADcAQRAF4/d\x3d1/ed\x3d1/rs\x3dACT90oH7cnNEXtQb7LvCUlfuDK4uVi4MFw/m\x3dsb_he,d';var st=0;var amd=0;var v=false;
+var e=this||self,f=function(a){return a};var g;var h=function(a){this.g=a};h.prototype.toString=function(){return this.g+""};var k={};
+function l(a,b){a.src=b instanceof h&&b.constructor===h?b.g:"type_error:TrustedResourceUrl";var c,d;(c=(b=null==(d=(c=(a.ownerDocument&&a.ownerDocument.defaultView||window).document).querySelector)?void 0:d.call(c,"script[nonce]"))?b.nonce||b.getAttribute("nonce")||"":"")&&a.setAttribute("nonce",c)};var m=function(){var a=document;var b="SCRIPT";"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)};function n(a){a=null===a?"null":void 0===a?"undefined":a;if(void 0===g){var b=null;var c=e.trustedTypes;if(c&&c.createPolicy){try{b=c.createPolicy("goog#html",{createHTML:f,createScript:f,createScriptURL:f})}catch(d){e.console&&e.console.error(d.message)}g=b}else g=b}a=(b=g)?b.createScriptURL(a):a;return new h(a,k)};void 0===google.ps&&(google.ps=[]);function p(){var a=u,b=function(){};google.lx=google.stvsc?b:function(){q(a);google.lx=b};google.bx||google.lx()}function r(a,b){b&&l(a,n(b));var c=a.onload;a.onload=function(d){c&&c(d);google.ps=google.ps.filter(function(B){return a!==B})};google.ps.push(a);document.body.appendChild(a)}google.as=r;function q(a){google.timers&&google.timers.load&&google.tick&&google.tick("load","xjsls");var b=m();b.onerror=function(){google.ple=1};b.onload=function(){google.ple=0};google.xjsus=void 0;r(b,a);google.aple=-1;google.psa=!0};function t(a){var b=a.getAttribute("jscontroller");return("UBXHI"===b||"R3fhkb"===b||"TSZEqd"===b)&&a.hasAttribute("data-src")}for(var w=document.getElementsByTagName("img"),x=0,y=w.length;x<y;++x){var z=w[x];Number(z.getAttribute("data-atf"))&1&&t(z)&&(z.src=z.getAttribute("data-src"))};google.xjsu=u;e._F_jsUrl=u;var A=!1;function C(){A||(p(),A=!0)}
+setTimeout(function(){google&&google.tick&&google.timers&&google.timers.load&&google.tick("load","xjspls");var a;if(!(a=1!==st||!google.caft||v&&"visible"!==document.visibilityState))a:{a=document.getElementsByTagName("img");for(var b=0,c=a.length;b<c;b++){var d=a[b];if(d.hasAttribute("data-lzy_")&&Number(d.getAttribute("data-atf"))&1&&!t(d)){a=!0;break a}}a=!1}a?2!==st||!google.rairicb||v&&"visible"!==document.visibilityState?p():(window.setTimeout(C,amd),google.rairicb(C)):(window.setTimeout(C,amd),google.caft(C))},0);})();window._ = window._ || {};window._DumpException = _._DumpException = function(e){throw e;};window._s = window._s || {};_s._DumpException = _._DumpException;window._qs = window._qs || {};_qs._DumpException = _._DumpException;(function(){var t=[1,8,0,0,0,2621440,0,608179232,393664,270532640,2359296,8390624,0,174063633,571342848,12583054,1115249,376];window._F_toggles = window._xjs_toggles = t;})();function _F_installCss(c){}
+(function(){google.jl={bfl:0,dw:false,ine:false,ubm:false,uwp:true,vs:false};})();(function(){var pmc='{\x22d\x22:{},\x22sb_he\x22:{\x22agen\x22:false,\x22cgen\x22:false,\x22client\x22:\x22heirloom-hp\x22,\x22dh\x22:true,\x22ds\x22:\x22\x22,\x22fl\x22:true,\x22host\x22:\x22google.com\x22,\x22jsonp\x22:true,\x22msgs\x22:{\x22cibl\x22:\x22Limpar pesquisa\x22,\x22dym\x22:\x22Voc\\u00ea quis dizer:\x22,\x22lcky\x22:\x22Estou com sorte\x22,\x22lml\x22:\x22Saiba mais\x22,\x22psrc\x22:\x22Esta pesquisa foi removida do seu\\u003Ca href\x3d\\\x22/history\\\x22\\u003EHist\\u00f3rico da web\\u003C/a\\u003E\x22,\x22psrl\x22:\x22Remover\x22,\x22sbit\x22:\x22Pesquisa por imagem\x22,\x22srch\x22:\x22Pesquisa Google\x22},\x22ovr\x22:{},\x22pq\x22:\x22\x22,\x22rfs\x22:[],\x22sbas\x22:\x220 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08)\x22,\x22stok\x22:\x22UuX_21uMh6QLk7sZ-BPC2rEWxuI\x22}}';google.pmc=JSON.parse(pmc);})();(function(){var c=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}};
+var e=this||self;var g,h;a:{for(var k=["CLOSURE_FLAGS"],l=e,n=0;n<k.length;n++)if(l=l[k[n]],null==l){h=null;break a}h=l}var p=h&&h[610401301];g=null!=p?p:!1;var q,r=e.navigator;q=r?r.userAgentData||null:null;function t(a){return g?q?q.brands.some(function(b){return(b=b.brand)&&-1!=b.indexOf(a)}):!1:!1}function u(a){var b;a:{if(b=e.navigator)if(b=b.userAgent)break a;b=""}return-1!=b.indexOf(a)};function v(){return g?!!q&&0<q.brands.length:!1}function w(){return u("Safari")&&!(x()||(v()?0:u("Coast"))||(v()?0:u("Opera"))||(v()?0:u("Edge"))||(v()?t("Microsoft Edge"):u("Edg/"))||(v()?t("Opera"):u("OPR"))||u("Firefox")||u("FxiOS")||u("Silk")||u("Android"))}function x(){return v()?t("Chromium"):(u("Chrome")||u("CriOS"))&&!(v()?0:u("Edge"))||u("Silk")}function y(){return u("Android")&&!(x()||u("Firefox")||u("FxiOS")||(v()?0:u("Opera"))||u("Silk"))};var z=v()?!1:u("Trident")||u("MSIE");y();x();w();var A;A="function"===typeof Symbol&&"symbol"===typeof Symbol()?Symbol():void 0;var B=[];(A?function(a,b){a[A]=b}:function(a,b){void 0!==a.g?a.g=b:Object.defineProperties(a,{g:{value:b,configurable:!0,writable:!0,enumerable:!1}})})(B,55);Object.freeze(B);var C=function(){};Object.freeze(new function(){});Object.freeze(new C);Object.freeze(new C);var D=!z&&!w(),G=function(a){if(/-[a-z]/.test("ved"))return null;if(D&&a.dataset){if(y()&&!("ved"in a.dataset))return null;a=a.dataset.ved;return void 0===a?null:a}return a.getAttribute("data-"+"ved".replace(/([A-Z])/g,"-$1").toLowerCase())};var H=[],I=null;function J(a){a=a.target;var b=performance.now(),f=[],K=f.concat,d=H;if(!(d instanceof Array)){var m="undefined"!=typeof Symbol&&Symbol.iterator&&d[Symbol.iterator];if(m)d=m.call(d);else if("number"==typeof d.length)d={next:c(d)};else throw Error("b`"+String(d));for(var E=[];!(m=d.next()).done;)E.push(m.value);d=E}H=K.call(f,d,[b]);if(a&&a instanceof HTMLElement)if(a===I){if(b=4<=H.length)b=5>(H[H.length-1]-H[H.length-4])/1E3;if(b){b=google.getEI(a);a.hasAttribute("data-ved")?f=a?G(a)||"":"":f=(f=
+a.closest("[data-ved]"))?G(f)||"":"";f=f||"";if(a.hasAttribute("jsname"))a=a.getAttribute("jsname");else{var F;a=null==(F=a.closest("[jsname]"))?void 0:F.getAttribute("jsname")}google.log("rcm","&ei="+b+"&tgtved="+f+"&jsname="+(a||""))}}else I=a,H=[b]}window.document.addEventListener("DOMContentLoaded",function(){document.body.addEventListener("click",J)});}).call(this);</script></body></html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+    
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- In&#237;cio das informa&#231;&#245;es dos Correios -->
+    <title>Correios</title>
+    <link rel="icon" type="image/png" href="/++theme++tema-do-portal-correios/static/imagens/favicon-32x32.png" sizes="32x32" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics - Nova Vers&#227;o-->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-J59GSF3WW5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-J59GSF3WW5');
+    </script>
+
+    <!-- Fim do Google Analytics - Nova Vers&#227;o--> 
+
+  <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WNPMDD2');</script>
+  <!-- End Google Tag Manager -->
+  
+  <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNPMDD2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Correios" />
+    <!-- Fimd das informa&#231;&#245;es dos Correios -->
+
+  
+<meta content="summary" name="twitter:card" /><meta content="Correios" property="og:site_name" /><meta content="Correios" property="og:title" /><meta content="website" property="og:type" /><meta content="" property="og:description" /><meta content="https://www.correios.com.br" property="og:url" /><meta content="https://www.correios.com.br/@@site-logo/correios.svg" property="og:image" /><meta content="image/png" property="og:image:type" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Plone - http://plone.com" /><link rel="canonical" href="https://www.correios.com.br" /><link rel="alternate" href="https://www.correios.com.br/RSS" title="Correios - RSS 1.0" type="application/rss+xml" /><link rel="alternate" href="https://www.correios.com.br/rss.xml" title="Correios - RSS 2.0" type="application/rss+xml" /><link rel="alternate" href="https://www.correios.com.br/atom.xml" title="Correios - Atom" type="application/rss+xml" /><link rel="search" href="https://www.correios.com.br/@@search" title="Buscar neste site" /><link rel="stylesheet" type="text/css" href="https://www.correios.com.br/++plone++static/++unique++2020-11-27%2016%3A03%3A47/plone-compiled.css" data-bundle="plone" /><link rel="stylesheet" type="text/css" href="https://www.correios.com.br/++plone++static/++unique++2020-11-27%2017%3A35%3A08.860502/plone-legacy-compiled.css" data-bundle="plone-legacy" /><link rel="stylesheet" type="text/css" href="https://www.correios.com.br//++theme++tema-do-portal-correios/less/theme-compiled.css" data-bundle="diazo" /><script type="text/javascript">PORTAL_URL = 'https://www.correios.com.br';</script><script type="text/javascript" src="https://www.correios.com.br/++plone++static/components/jquery/dist/jquery.min.js" data-bundle="basic"></script><script type="text/javascript" src="https://www.correios.com.br/++plone++static/components/requirejs/require.js" data-bundle="basic"></script><script type="text/javascript" src="https://www.correios.com.br/config.js" data-bundle="basic"></script><script type="text/javascript" src="https://www.correios.com.br/++plone++static/++unique++2020-11-27%2016%3A03%3A47/plone-compiled.min.js" data-bundle="plone"></script><script type="text/javascript" src="https://www.correios.com.br/++plone++static/++unique++2020-11-27%2017%3A35%3A08.860502/plone-legacy-compiled.js" data-bundle="plone-legacy"></script></head>
+
+<body id="visual-portal-wrapper" class="frontend icons-on pat-markspeciallinks portaltype-document section-homepage site-Plone template-homeview thumbs-on userrole-anonymous viewpermission-view" dir="ltr" data-i18ncatalogurl="https://www.correios.com.br/plonejsi18n" data-pat-plone-modal="{&quot;actionOptions&quot;: {&quot;displayInModal&quot;: false}}" data-pat-markspeciallinks="{&quot;external_links_open_new_window&quot;: false, &quot;mark_special_links&quot;: true}" data-view-url="https://www.correios.com.br/homepage" data-portal-url="https://www.correios.com.br" data-pat-pickadate="{&quot;date&quot;: {&quot;selectYears&quot;: 200}, &quot;time&quot;: {&quot;interval&quot;: 5 } }" data-base-url="https://www.correios.com.br/homepage"><section id="portal-toolbar"></section><!-- No header teremos duas classes iniciais o cabecalho e o menu,
+            as duas classes est&#227;o no topo.css --><div class="outer-wrapper">
+        <header>
+            <!-- Cabe&#231;alho -->
+            <div id="mainnavigation">
+
+  <p class="hiddenStructure">Navegação</p>
+  <nav class="plone-navbar" id="portal-globalnav-wrapper">
+    <div class="container">
+      <div class="plone-navbar-header">
+        <button type="button" class="plone-navbar-toggle" data-toggle="collapse" data-target="#portal-globalnav-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="plone-collapse plone-navbar-collapse" id="portal-globalnav-collapse">
+        <ul class="plone-nav plone-navbar-nav" id="portal-globalnav">
+            
+              <li id="portaltab-index_html" class="selected">
+                  <a href="https://www.correios.com.br" title="">Página Inicial</a>
+              </li>
+            
+              <li id="portaltab-enviar">
+                  <a href="https://www.correios.com.br/enviar" title="">Enviar</a>
+              </li>
+            
+              <li id="portaltab-receber">
+                  <a href="https://www.correios.com.br/receber" title="">Receber</a>
+              </li>
+            
+              <li id="portaltab-comprar">
+                  <a href="https://www.correios.com.br/comprar" title="">Comprar</a>
+              </li>
+            
+              <li id="portaltab-logistica">
+                  <a href="https://www.correios.com.br/logistica" title="">Logística</a>
+              </li>
+            
+              <li id="portaltab-atendimento">
+                  <a href="https://www.correios.com.br/atendimento" title="">Atendimento</a>
+              </li>
+            
+              <li id="portaltab-acesso-a-informacao">
+                  <a href="https://www.correios.com.br/acesso-a-informacao" title="">Acesso à Informação</a>
+              </li>
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<!-- Inicio da Acessibilidade e Idioma -->
+<div class="cabecalho">
+    <div class="largura-maxima flex">
+        <div class="acessibilidade">
+            <button id="botao-acessibilidade" class="bt-link-ic bt-acessibilidade">
+                <span>Acessibilidade</span>
+                <i class="ic-marcador-out rotacao-90"></i>
+            </button>
+            <ul id="lista-itens-acessibilidade" class="lista-acessibilidade oculta-item-cabecalho">
+                <li>
+                    <a id="link-contraste" href="#" accesskey="c">
+                        <i class="ic-alto-contraste-out"></i>
+                        Alto Contraste
+                    </a>
+                </li>
+                <li>
+                    <!-- Código do Vlibras do governo Federal-->
+                    <div vw="" class="enabled">
+                        <div vw-access-button="" class="active"></div>
+                        <!-- <div vw-plugin-wrapper>
+                            <div class="vw-plugin-top-wrapper"></div>
+                        </div> -->
+                    </div>
+                    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+                    <script>
+                        new window.VLibras.Widget('https://vlibras.gov.br/app');
+                    </script>
+                </li>
+                <li>
+                    <a class="saiba-mais-sobre-acessibilidade" href="https://www.correios.com.br/acessibilidade">
+                        <img class="acessibilidade-imagem" src="https://www.correios.com.br/estrutura-da-pagina/acessibilidade/saiba-mais-sobre-acessibilidade/@@images/imagem_para_link/icon" alt="Acessibilidade do portal Correios" />
+                        Saiba mais sobre Acessibilidade
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="idioma">
+            <button class="bt-link-ic bt-idioma">
+                <img src="static/imagens/bandeira-brasil.svg" />
+                <span>Português</span>
+                <i class="ic-marcador-out rotacao-90"></i>
+            </button> 
+        </div> -->
+    </div>
+    <!-- Duplicação do Código do Vlibras do governo Federal para poder fazer o item acionado flutuar-->
+    <div vw="" class="enabled">
+        <!-- <div vw-access-button class="active"></div> -->
+        <div vw-plugin-wrapper="">
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Fim da Acessibilidade e Idioma -->
+
+<!-- Inicio do tratamento para Menu -->
+<div id="menu-content" class="menu">
+    <div class="largura-maxima">
+        <div class="flex">
+            <button class="bt-link-ic bt-menu-hamburguer" id="botaohamburguer">
+                <i class="ic-menu-hamburguer-out"></i>
+            </button>
+            
+            <div class="logo-correios">
+                
+                    <a href="https://www.correios.com.br">
+                        <h1><img src="++theme++tema-do-portal-correios/static/imagens/correios.svg" alt="Imagem com o logo dos Correios" /></h1>
+                    </a>
+                 
+            </div>
+
+            <!-- Inicio dos itens de Menus -->
+
+            <!-- Nao trocar a ordem das classes,
+            se precisar adicionar uma nova, coloque-a no fim da lista -->
+            <ul class="links-menu-superior">
+                <li id="itemMenu_enviar" class="itemMenu_enviar links-menu-superior">
+                    <a href="#">
+                        Enviar
+                    </a>
+                    <ul class="flex lista-menu oculta-menu">
+                        <!-- Propaganda -->
+                        <li class="lista-propaganda">
+                            <ul class="propaganda-menu">
+                                <li>
+                                    <img class="propaganda-imagem" src="https://www.correios.com.br/enviar/novo-sedex-hoje/@@images/imagem_para_link/preview" alt="Sedex. Mandou, chegou!" />
+                                    <span class="titulo-detalhe propaganda-titulo">
+                                        Sedex Hoje
+                                    </span>
+                                    <p class="propaganda-paragrafo">
+                                        Sua entrega em poucas horas!
+                                    </p>
+                                    <a class="propaganda-link" href="https://www.correios.com.br/enviar/encomendas/nacional">
+                                        Conheça mais sobre o Sedex
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Fim da Propagana -->
+                        <!-- Início dos itens de Menu -->
+                        <li class="lista-itens-menu">
+                            <ul class="menu-itens">
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/enviar/encomendas">
+                                                Encomendas
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/nacional">
+                                                            Nacional
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/internacional">
+                                                            Internacional
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/enviar/correspondencia">
+                                                Correspondência
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/correspondencia/nacional">
+                                                            Nacional
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/correspondencia/internacional">
+                                                            Internacional
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/enviar/dinheiro">
+                                                Dinheiro
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/dinheiro/nacional">
+                                                            Nacional
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/enviar/marketing-direto">
+                                                Marketing Direto
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/marketing-direto/nacional">
+                                                            Nacional
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/marketing-direto/internacional">
+                                                            Internacional
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/enviar/precisa-de-ajuda">
+                                                Precisa de Ajuda?
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/como-contratar-os-correios">
+                                                            Como contratar os Correios
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/arquivo/nacional/guia-de-enderecamento.pdf">
+                                                            Como endereçar suas encomendas
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/correspondencia/arquivos/nacional/guia-tecnico-de-enderecamento-de-correspondencias.pdf">
+                                                            Como endereçar suas correspondências
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/arquivo/nacional/guia-tecnico-embalagens-rpc_v1-1.pdf">
+                                                            Como embalar corretamente suas encomendas
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/arquivo/nacional/formulario-declaracao-de-conteudo-a5">
+                                                            Formulário Declaração de Conteúdo - Nacional
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/correios-de-a-a-z">
+                                                            Correios de A a Z
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/tudo-sobre-cep">
+                                                            Tudo sobre CEP
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                    
+                            </ul>
+                        </li>
+                        <!-- Fim dos itens de menu -->
+                    </ul>
+                </li>
+                <li id="itemMenu_receber" class="itemMenu_receber links-menu-superior">
+                    <a href="#">
+                        Receber
+                    </a>
+                    <ul class="flex lista-menu oculta-menu">
+                        <!-- Propaganda -->
+                        <li class="lista-propaganda">
+                            <ul class="propaganda-menu">
+                                <li>
+                                    <img class="propaganda-imagem" src="https://www.correios.com.br/receber/locker-dos-correios/@@images/imagem_para_link/preview" alt="Praticidade para receber encomendas." />
+                                    <span class="titulo-detalhe propaganda-titulo">
+                                        Locker
+                                    </span>
+                                    <p class="propaganda-paragrafo">
+                                        O armário inteligente dos Correios
+                                    </p>
+                                    <a class="propaganda-link" href="https://www.correios.com.br/receber/encomenda/receber-encomenda">
+                                        Conheça mais sobre o Locker
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Fim da Propagana -->
+                        <!-- Início dos itens de Menu -->
+                        <li class="lista-itens-menu">
+                            <ul class="menu-itens">
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/receber/encomenda">
+                                                Encomendas
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/receber/encomenda/receber-encomenda">
+                                                            Nacional
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/receber/encomenda/internacional">
+                                                            Internacional
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/receber/correspondencia">
+                                                Correspondência
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/receber/correspondencia/nacional">
+                                                            Correspondência
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/receber/dinheiro">
+                                                Dinheiro
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/receber/precisa-de-ajuda">
+                                                Precisa de Ajuda?
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/como-contratar-os-correios">
+                                                            Como contratar os Correios
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/arquivo/nacional/guia-de-enderecamento.pdf">
+                                                            Como endereçar suas encomendas
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/correspondencia/arquivos/nacional/guia-tecnico-de-enderecamento-de-correspondencias.pdf">
+                                                            Como endereçar suas correspondências
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/arquivo/nacional/guia-tecnico-embalagens-rpc_v1-1.pdf">
+                                                            Como embalar corretamente suas encomendas
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/correios-de-a-a-z">
+                                                            Correios de A a Z
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/tudo-sobre-cep">
+                                                            Tudo sobre CEP
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                    
+                            </ul>
+                        </li>
+                        <!-- Fim dos itens de menu -->
+                    </ul>
+                </li>
+                <li id="itemMenu_comprar" class="itemMenu_comprar links-menu-superior">
+                    <a href="#">
+                        Comprar
+                    </a>
+                    <ul class="flex lista-menu oculta-menu">
+                        <!-- Propaganda -->
+                        <li class="lista-propaganda">
+                            <ul class="propaganda-menu">
+                                <li>
+                                    <img class="propaganda-imagem" src="https://www.correios.com.br/comprar/certificado-digital-1/@@images/imagem_para_link/preview" alt="Certificado Digital dos correios agora com atendimento 100% digital" />
+                                    <span class="titulo-detalhe propaganda-titulo">
+                                        Certificado Digital
+                                    </span>
+                                    <p class="propaganda-paragrafo">
+                                        Certificado Digital dos Correios
+                                    </p>
+                                    <a class="propaganda-link" href="https://www.correios.com.br/atendimento/balcao-do-cidadao/adquira-certificado-digital">
+                                        Saiba mais sobre o Certificado Digital
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Fim da Propagana -->
+                        <!-- Início dos itens de Menu -->
+                        <li class="lista-itens-menu">
+                            <ul class="menu-itens">
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/comprar/loja-online">
+                                                Loja online
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://c.correios.com.br/embalagens">
+                                                            Embalagens
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://shopping.correios.com.br/wbm/store/script/wbm2400902p01.aspx?cd_company=ErZW8Dm9i54=&amp;amp;cd_department=0gWtEB4gZWA=">
+                                                            Selos Institucional
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://shopping.correios.com.br/wbm/store/script/store.aspx?cd_company=ErZW8Dm9i54= ">
+                                                            Selos
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/comprar/correios-celular">
+                                                Correios Celular
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://bit.ly/Alo25">
+                                                            Recarga e chip plano Alô 25
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://bit.ly/alo30">
+                                                            Recarga e chip plano Alô 30
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://bit.ly/alo40">
+                                                            Recarga e chip plano Alô 40
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://bit.ly/Alo50">
+                                                            Recarga e chip plano Alô 50
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://bit.ly/Alo75">
+                                                            Recarga e chip plano Alô 75
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/comprar/certificado-digital">
+                                                Correios Certifica
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://parceiro.gestaoar.shop/correios/certificados">
+                                                            Certificado Digital
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                    
+                            </ul>
+                        </li>
+                        <!-- Fim dos itens de menu -->
+                    </ul>
+                </li>
+                <li id="itemMenu_logistica" class="itemMenu_logistica links-menu-superior">
+                    <a href="#">
+                        Logística
+                    </a>
+                    <ul class="flex lista-menu oculta-menu">
+                        <!-- Propaganda -->
+                        <li class="lista-propaganda">
+                            <ul class="propaganda-menu">
+                                <li>
+                                    <img class="propaganda-imagem" src="https://www.correios.com.br/logistica/logi-supri/@@images/imagem_para_link/preview" alt="Oferecemos a gestão completa da sua operação logística." />
+                                    <span class="titulo-detalhe propaganda-titulo">
+                                        Log Supri
+                                    </span>
+                                    <p class="propaganda-paragrafo">
+                                        A gestão completa da sua operação logística.
+                                    </p>
+                                    <a class="propaganda-link" href="https://www.correios.com.br/logistica/logistica-para-e-commerce/saiba-mais-correios-log">
+                                        Conheça mais sobre o Log Supri.
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Fim da Propagana -->
+                        <!-- Início dos itens de Menu -->
+                        <li class="lista-itens-menu">
+                            <ul class="menu-itens">
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/logistica/logistica-para-e-commerce">
+                                                Logística para e-Commerce
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/logistica/logistica-de-suprimentos">
+                                                Logística de Suprimentos
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/logistica/logistica-customizada">
+                                                Logística Customizada
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/logistica/precisa-de-ajuda">
+                                                Precisa de Ajuda?
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/arquivo/nacional/guia-de-enderecamento.pdf">
+                                                            Como endereçar suas encomendas
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/correspondencia/arquivos/nacional/guia-tecnico-de-enderecamento-de-correspondencias.pdf">
+                                                            Como endereçar suas correspondências
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/encomendas/arquivo/nacional/guia-tecnico-embalagens-rpc_v1-1.pdf">
+                                                            Como embalar corretamente suas encomendas
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/correios-de-a-a-z">
+                                                            Correios de A a Z
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/enviar/precisa-de-ajuda/tudo-sobre-cep">
+                                                            Tudo sobre CEP
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/logistica/contrateoscorreios">
+                                                Contrate os Correios
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/logistica/contrateoscorreios/copy_of_como-contratar-os-correios">
+                                                            Como contratar os Correios
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/correios-facil">
+                                                            Faça seu contrato
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                    
+                            </ul>
+                        </li>
+                        <!-- Fim dos itens de menu -->
+                    </ul>
+                </li>
+                <li id="itemMenu_atendimento" class="itemMenu_atendimento links-menu-superior">
+                    <a href="#">
+                        Atendimento
+                    </a>
+                    <ul class="flex lista-menu oculta-menu">
+                        <!-- Propaganda -->
+                        <li class="lista-propaganda">
+                            <ul class="propaganda-menu">
+                                <li>
+                                    <img class="propaganda-imagem" src="https://www.correios.com.br/atendimento/seguros/@@images/imagem_para_link/preview" alt="Agora, você conta com a união de duas empresas centenárias para tornar a sua vida mais tranquila." />
+                                    <span class="titulo-detalhe propaganda-titulo">
+                                        Seguros
+                                    </span>
+                                    <p class="propaganda-paragrafo">
+                                        Você Mais Seguro! Para tornar sua vida mais tranquila.
+                                    </p>
+                                    <a class="propaganda-link" href="https://www.correios.com.br/resolveuid/49581b78d9894145a5fd9c10547853fb">
+                                        Acesse aqui e conheça mais sobre o Você Mais Seguro
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Fim da Propagana -->
+                        <!-- Início dos itens de Menu -->
+                        <li class="lista-itens-menu">
+                            <ul class="menu-itens">
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao">
+                                                Balcão do Cidadão
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/emita-seu-cpf">
+                                                            Emita seu CPF
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/consulte-restricao-cpf-ou-cnpj">
+                                                            Consulte Restrição CPF ou CNPJ
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/acesse-serasa-limpa-nome">
+                                                            Acesse Serasa Limpa Nome
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/adquira-certificado-digital">
+                                                            Certificado Digital
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/achados-e-perdidos">
+                                                            Achados e Perdidos
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/titulo-de-capitalizacao">
+                                                            Título de Capitalização
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/atendimento-presencial-telefonicas">
+                                                            Atendimento Presencial Telefônicas
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/transacoes-financeiras">
+                                                            Soluções Financeiras
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/cursos">
+                                                            Inscreva-se em Diversos Cursos
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/contrate-seu-plano-odontologico">
+                                                            Contrate seu Plano Odontológico
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/protocolo-orgaos-judiciais">
+                                                            Protocolo - Órgãos Judiciais
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/mais-servicos-por-estado-ou-regiao">
+                                                            Mais Serviços Por Estado ou Região
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/seguros">
+                                                            Seguros
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/atendimento/ferramentas">
+                                                Ferramentas
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/ferramentas/sistemas">
+                                                            Sistemas dos Correios
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/ferramentas/aplicativo-dos-correios">
+                                                            Aplicativo dos Correios
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/atendimento/correiosempresas">
+                                                Correios Empresas
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/estrutura-da-pagina/meu-correios/pessoa-juridica">
+                                                            Acompanhe seu contrato
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/correios-facil">
+                                                            Faça seu contrato on-line
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/atendimento/developers">
+                                                Desenvolvedores
+                                            </a>
+                                            <ul>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/developers/correios-developers">
+                                                            Desenvolvedores
+                                                        </a>
+                                                    </li>
+                                                
+                                                    <li class="itens-do-menu link-menu filho">
+                                                        <a href="https://www.correios.com.br/atendimento/influenciadores-digitais">
+                                                            Influenciadores Digitais dos Correios
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                     
+                                    
+                            </ul>
+                        </li>
+                        <!-- Fim dos itens de menu -->
+                    </ul>
+                </li>
+                <li id="itemMenu_acesso-a-informacao" class="itemMenu_acesso-a-informacao links-menu-superior">
+                    <a href="#">
+                        Acesso à Informação
+                    </a>
+                    <ul class="flex lista-menu oculta-menu">
+                        <!-- Propaganda -->
+                        <li class="lista-propaganda">
+                            <ul class="propaganda-menu">
+                                <li>
+                                    <img class="propaganda-imagem" src="https://www.correios.com.br/estrutura-da-pagina/propaganda-menu/correios/@@images/imagem_para_link/preview" alt="Chamamento Público para credenciamento de instituições de ensino" />
+                                    <span class="titulo-detalhe propaganda-titulo">
+                                        Chamamento Público
+                                    </span>
+                                    <p class="propaganda-paragrafo">
+                                        Chamamento Público para credenciamento de instituições de ensino
+                                    </p>
+                                    <a class="propaganda-link" href="https://saladeimprensa.correios.com.br/arquivos/8601">
+                                        Clique e saiba mais
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Fim da Propagana -->
+                        <!-- Início dos itens de Menu -->
+                        <li class="lista-itens-menu">
+                            <ul class="menu-itens">
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/institucional">
+                                                Institucional
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/acoes-e-programas">
+                                                Ações e Programas
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/participacao-social">
+                                                Participação Social
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/auditorias">
+                                                Auditorias
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/convenios-e-transferencias">
+                                                Convênios e Transferências
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/receitas-e-despesas">
+                                                Receitas e Despesas
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/licitacoes-e-contratos">
+                                                Licitações e Contratos
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/servidores">
+                                                Servidores
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/informacoes-classificadas">
+                                                Informações Classificadas
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/servico-de-informacao-ao-cidadao-sic">
+                                                Serviço de Informação ao Cidadão - SIC
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/perguntas-frequentes">
+                                                Perguntas Frequentes
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/dados-abertos">
+                                                Dados Abertos
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                
+                                    
+                                        
+                                        <li class="itens-do-menu folder-menu pai">
+                                            <a href="https://www.correios.com.br/acesso-a-informacao/transparencia-e-governanca">
+                                                Transparência e Governança
+                                            </a>
+                                            
+                                        </li>
+                                     
+                                    
+                            </ul>
+                        </li>
+                        <!-- Fim dos itens de menu -->
+                    </ul>
+                </li>
+            </ul>
+            <!-- Fim dos itens de Menus -->
+
+            <div class="divisor divisor-login">
+
+            </div>
+
+
+            <!-- <ul title="Faça login ou cadastre-se" class="bt-link-ic bt-login link-btn-meu-correios"> -->
+            <ul title="Faça login ou cadastre-se" class="links-menu-meu-correios">
+                <li class="lista-menu-meu-correios">
+                    <a href="#">
+                        <span class="login-meu-correios">Faça Login</span>
+                       
+                        <img src="++theme++tema-do-portal-correios/static/imagens/ic-personalizados/entrar-cor.svg" alt="Imagem de uma porta para indicar o acesso ao Meu Correios" />
+                        <span class="login-txt">
+                            ou Cadastre-se
+                        </span>
+                    </a>
+
+                    <!-- TENHO QUE CRIAR UMA CONDIÇÃO PARA NÃO DAR ERRO QUANDO FICAR EM BRANCO 
+                    DEFINIR AS CLASSES PARA MONTAR A HIERARQUIA SEMELHANTE PARA DO MENU EM TOPO.CSS LINHA 303 
+                    Manter o menu abrindo mesmo no mobile -->
+                    <ul class="itens-menu-meu-correios oculta-menu">
+                        <li class="item-meu-correios flex">
+                            <a href="https://meucorreios.correios.com.br/app/index.php">
+                                Meu Correios
+                            </a>
+                        </li>
+                        <li class="item-meu-correios flex">
+                            <a href="https://empresas.correios.com.br/#/login">
+                                Correios Empresas
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+  
+<!-- 
+            <a title="Faça login ou cadastre-se" class="bt-link-ic bt-login link-btn-meu-correios" href="https://cas.correios.com.br/login?service=https%3A%2F%2Fmeucorreios.correios.com.br%2Fcore%2Fseguranca%2Fservice.php">
+                <img src="++theme++tema-do-portal-correios/static/imagens/ic-personalizados/entrar-cor.svg" alt="Imagem de uma porta para indicar o acesso ao Meu Correios"/>
+                <span class="login-txt">Meu Correios</span>
+            </a> -->
+
+
+
+            <div class="divisor divisor-busca"></div>
+
+            <div id="busca-portal">
+                <button class="bt-link-ic bt-busca">
+                    <img src="++theme++tema-do-portal-correios/static/imagens/ic-personalizados/busca-cor.svg" alt="Imagem de uma lupa para indicar o item de busca" />
+                    <span class="busca-txt">Busca</span>
+                </button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-- Fim do tratamento para Menu -->
+</div>
+            <!-- In&#237;cio do Menu -->
+            <div id="campo-busca-correios" class="esconde-busca">
+                <div class="largura-maxima"><div id="portal-searchbox">
+
+    <form id="searchGadget_form" action="https://www.correios.com.br/@@search" role="search" data-pat-livesearch="ajaxUrl:https://www.correios.com.br/@@ajax-search" class="pat-livesearch">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">Busca</label>
+             
+        <div class="searchSection">
+            <input id="searchbox_currentfolder_only" class="noborder" type="checkbox" name="path" value="/Plone" />
+            <label for="searchbox_currentfolder_only" style="cursor: pointer">apenas nesta seção</label>
+        </div>
+             
+        <input name="SearchableText" type="text" size="18" id="searchGadget" title="Buscar no Site" placeholder="Buscar no Site" class="searchField" />
+
+        <input class="searchButton" type="submit" value="Buscar" />
+
+         </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="https://www.correios.com.br/@@search">Busca Avançada…</a>
+    </div>
+
+</div></div>
+            </div>
+            <!-- <div id="above-content"></div> -->
+        </header>
+
+        <!-- Main da p&#225;gina. Em raz&#227;o de compatibilidade com o IE 11 n&#227;o utilizamos a tag main -->
+        <div class="conteudo-inicial">
+            <!-- <div class="largura-maxima"> -->
+                <div id="main-container" class="row row-offcanvas row-offcanvas-right" role="main">
+                    <div id="sidebar" class="col-xs-6 col-sm-3 sidebar-offcanvas">
+          <aside id="portal-column-one">
+              <div class="portletWrapper" id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e" data-portlethash="706c6f6e652e6c656674636f6c756d6e0a636f6e746578740a2f506c6f6e650a6e617669676174696f6e">
+<aside class="portlet portletNavigationTree" role="navigation">
+
+    <header class="portletHeader hiddenStructure">
+        <a href="https://www.correios.com.br/sitemap" class="tile">Navegação</a>
+    </header>
+
+    <nav class="portletContent lastItem">
+        <ul class="navTree navTreeLevel0">
+            
+            
+
+
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-enviar">
+
+    
+
+        <a href="https://www.correios.com.br/enviar" title="" class="state-published navTreeFolderish contenttype-folder">
+
+             
+
+            
+
+            Enviar
+        </a>
+        
+
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-receber">
+
+    
+
+        <a href="https://www.correios.com.br/receber" title="" class="state-published navTreeFolderish contenttype-folder">
+
+             
+
+            
+
+            Receber
+        </a>
+        
+
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-comprar">
+
+    
+
+        <a href="https://www.correios.com.br/comprar" title="" class="state-published navTreeFolderish contenttype-folder">
+
+             
+
+            
+
+            Comprar
+        </a>
+        
+
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-logistica">
+
+    
+
+        <a href="https://www.correios.com.br/logistica" title="" class="state-published navTreeFolderish contenttype-folder">
+
+             
+
+            
+
+            Logística
+        </a>
+        
+
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-atendimento">
+
+    
+
+        <a href="https://www.correios.com.br/atendimento" title="" class="state-published navTreeFolderish contenttype-folder">
+
+             
+
+            
+
+            Atendimento
+        </a>
+        
+
+    
+</li>
+
+<li class="navTreeItem visualNoMarker navTreeFolderish section-acesso-a-informacao">
+
+    
+
+        <a href="https://www.correios.com.br/acesso-a-informacao" title="" class="state-published navTreeFolderish contenttype-folder">
+
+             
+
+            
+
+            Acesso à Informação
+        </a>
+        
+
+    
+</li>
+
+
+
+
+        </ul>
+    </nav>
+</aside>
+
+
+</div>
+          </aside>
+        </div>
+                    <div id="viewlet-above-content"><nav id="portal-breadcrumbs" class="plone-breadcrumb">
+  <div class="container">
+    <span id="breadcrumbs-you-are-here" class="hiddenStructure">Você está aqui:</span>
+    <ol aria-labelledby="breadcrumbs-you-are-here">
+      <li id="breadcrumbs-home">
+        <a href="https://www.correios.com.br">Página Inicial</a>
+      </li>
+      
+    </ol>
+  </div>
+</nav>
+</div>
+                    <!-- <replace css:theme="#content-container" method="raw"> --><div class="col-xs-12 col-sm-9">
+      <!-- <p class="pull-right visible-xs">
+        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+      </p> -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <article id="content">
+
+          
+            <!-- Codigo do VLibras -->
+            <div vw="" class="enabled">
+                <div vw-plugin-wrapper="">
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+            <!-- Fim do codigo do VLibras -->
+
+            
+        
+        </article>
+        </div>
+      </div>
+      <footer class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div id="viewlet-below-content">
+
+
+
+
+</div>
+        </div>
+      </footer>
+    </div>
+
+                    <div id="column2-container">
+                    </div>
+                
+	<div class="col-xs-12">
+		
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a62616e6e6572732d7072696e636970616973" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a62616e6e6572732d7072696e636970616973"><section class="portlet portlet_banner" data-portlet-banner="portletBanner">
+    <div class="bannerPrincipal">
+          <div class="banner-home oculta-elemento" data-banner-home="banner-home">
+               <a href="https://www.correios.com.br/atendimento/balcao-do-cidadao/adquira-certificado-digital" target="_blank">
+                    <img class="banner-home-p" src="https://www.correios.com.br/home-page-2024/banner-principal/certificado-digital-dos-correios/@@images/imagem_mobile/large" alt="Certificado Digital dos Correios - Agilidade, integridade e segurança para declarar o IR 2024" />
+                    <img class="banner-home-g" src="https://www.correios.com.br/home-page-2024/banner-principal/certificado-digital-dos-correios/@@images/imagem_computador" alt="Certificado Digital dos Correios - Agilidade, integridade e segurança para declarar o IR 2024" />
+                </a>
+                
+           </div>
+          <div class="banner-home oculta-elemento" data-banner-home="banner-home">
+               <a href="https://saladeimprensa.correios.com.br/arquivos/9600" target="_blank">
+                    <img class="banner-home-p" src="https://www.correios.com.br/home-page-2024/banner-principal/doacoesaors/@@images/imagem_mobile/large" alt="Doações ao Rio Grande do Sul - Confira Novas Orientações" />
+                    <img class="banner-home-g" src="https://www.correios.com.br/home-page-2024/banner-principal/doacoesaors/@@images/imagem_computador" alt="Doações ao Rio Grande do Sul - Confira Novas Orientações" />
+                </a>
+                
+           </div>
+          <div class="banner-home oculta-elemento" data-banner-home="banner-home">
+               <a href="https://www.correios.com.br/central-de-informacoes/boletim-aos-clientes/meu-correios-seguranca-e-confiabilidade-para-seus-dados" target="_blank">
+                    <img class="banner-home-p" src="https://www.correios.com.br/home-page-2024/banner-principal/recadastramento-dos-correios/@@images/imagem_mobile/large" alt="Imagem de uma mão segurando o celular e em sua tela o site dos Correios é apresentado" />
+                    <img class="banner-home-g" src="https://www.correios.com.br/home-page-2024/banner-principal/recadastramento-dos-correios/@@images/imagem_computador" alt="Imagem de uma mão segurando o celular e em sua tela o site dos Correios é apresentado" />
+                </a>
+                
+           </div>
+          <div class="controle-imagem" data-controle-imagem="controle-imagem">
+          </div>
+          <input type="hidden" name="tempo_banner" data-tempo-banner="qtd_tempo_banner" value="10" />
+    </div>
+</section></div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a61636f6d70616e68652d7365752d6f626a65746f" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a61636f6d70616e68652d7365752d6f626a65746f"><section class="portlet portlet_acesso_rapido" data-portlet-acesso-rapido="portletAcessoRapido">
+  <div class="largura-maxima">
+    
+          <form class="acesso-rapido-busca" target="_blank" data-form-acesso-rapido="formAcessoRapido" tal:attributes="action string:https://rastreamento.correios.com.br/app/index.php; method string:POST" action="https://rastreamento.correios.com.br/app/index.php" method="POST">
+              <span>Acompanhe seu Objeto</span>
+              <div class="acompanhar-objeto-acesso-rapido">
+                    <img src="https://www.correios.com.br/home-page-2024/rastreamento/acompanhe-seu-objeto/@@images/imagem_que_simboliza_a_integracao/thumb" alt="Rastreamento" />   
+                        <div class="campo">
+                              <input type="text" data-rastreamento-input="rastreamento" id="objetos" name="objetos" placeholder="AA123456789BR ou 000.111.222.33" />
+                                      <button class="bt-link-ic">
+                                          <i class="ic-busca-out"></i>                                      
+                                      </button>
+                        </div>       
+              </div>       
+          </form>
+
+          <div class="acesso-rapido-links" data-portlet-acesso-rapido-links="acessoRapidoLinks">
+              <ul class="lista-icone">
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="http://www2.correios.com.br/sistemas/precosPrazos/">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/precos-e-prazos/@@images/imagem_para_link/thumb" alt="Preços e Prazos" />
+                        <span>Preços e Prazos</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://www.correios.com.br/falecomoscorreios/central-de-atendimento">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/central-de-atendimento/@@images/imagem_para_link/thumb" alt="Central de Atendimento" />
+                        <span>Central de Atendimento</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://cas.correios.com.br/login?service=https%3A%2F%2Fapps.correios.com.br%2Fportalimportador%2Fpages%2FpesquisarRemessaImportador%2FpesquisarRemessaImportador.jsf">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/minhas-importacoes/@@images/imagem_para_link/thumb" alt="Minhas Importações" />
+                        <span>Minhas Importações</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://buscacepinter.correios.com.br/app/endereco/index.php?t">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/busca-cep-ou-endereco/@@images/imagem_para_link/thumb" alt="Busca CEP ou Endereço" />
+                        <span>Busca CEP ou Endereço</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://www.correios.com.br/atendimento/ferramentas/aplicativo-dos-correios/aplicativo-dos-correios">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/app-correios/@@images/imagem_para_link/thumb" alt="App Correios" />
+                        <span>App Correios</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://empresas.correios.com.br/">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/correios-empresa/@@images/imagem_para_link/thumb" alt="Correios Empresa" />
+                        <span>Correios Empresa</span>
+                    </a>
+                </li>
+              </ul>
+          </div>
+  </div>
+</section> 
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a63616c63756c61646f7261" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a63616c63756c61646f7261">
+
+<section class="portlet Portlet_Precos_E_Prazo"> 
+
+  <div class="container-calculadora" data-portlet-precos-e-prazo="precosEPrazos">
+    <nav class="formulario-calc">
+      <p class="titulo-texto-calc">Agilize suas postagens no site ou app Correios!</p>
+      <p class="texto-calc">E entregue sua encomenda em uma de nossas agências.</p>     
+      <form class="container-form-calc">
+        <div class="origem-destino-calc">
+          <div class="inserir-dados-origem-calc">
+            <label for="origem">Origem</label>
+            <input type="text" id="origem" name="origem" placeholder="Informe o CEP" data-cep-origem="cep_origem" maxlength="8" />
+           </div>          
+          <div class="inserir-dados-destino-calc">
+            <label for="destino">Destino</label>
+            <input type="text" id="destino" name="destino" placeholder="Informe o CEP" data-cep-destino="cep_destino" maxlength="8" />
+            </div>
+        </div>     
+        <div class="simulador-calc">             
+          <div class="imagem-calc">
+            <div class="imagem-icone">
+              <img src="https://www.correios.com.br/estrutura-da-pagina/precos-e-prazos/imagens-medidas/caixa.png/@@images/image" alt="Imagem em azul que indica o local das dimensões (largura, altura e comprimento) de uma caixa." />
+            </div>
+            
+          </div>
+          <div class="dimensoes-calc">
+            <div class="altura-largura-comprimento-calc">
+              <div class="inserir-dados-calc">
+                <label for="altura">Altura <span>(A)</span></label>
+                <input type="text" id="altura" name="altura" placeholder="Entre 1 e 100 cm" data-altura="altura" maxlength="3" />                
+               </div>
+              <div class="inserir-dados-calc">
+                <label for="largura">Largura <span>(L)</span></label>
+                <input type="text" id="largura" name="largura" placeholder="Entre 8 e 100 cm" data-largura="largura" maxlength="3" />                
+                </div>
+              <div class="inserir-dados-calc">
+                <label for="comprimento">Comprimento <span>(C)</span></label>
+                <input type="text" id="comprimento" name="comprimento" placeholder="Entre 13 e 100 cm" data-comprimento="comprimento" maxlength="3" />                
+                </div>
+            </div>
+        
+          </div>   
+          
+               <div class="botao-simulador"> 
+               <div class="lista-mensagem-erro"></div>
+                <div class="simular-frete" data-botao-simular="simular">
+              <p>Calcular Frete</p>
+            </div>
+            <div class="para-outros-formatos-container">
+              <p>Simule <a class="link-outros-formatos" href="https://c.correios.com.br/SimulacaPortalCorreios"><strong>aqui</strong></a> outros serviços.</p>
+            </div>
+
+            </div>
+
+        </div>
+      </form>
+      <span class="mensagem-erro" label-simulacao="label-simula"></span>
+    </nav>
+
+   
+   <div data-respostas-precos-e-prazos="resposta-precos-e-prazos" class="oculta-elemento respostas-calc">
+          <p class="titulo-texto-calc">Quer agilidade na hora de postar sua encomenda?</p>
+          <p class="texto-calc">Faça aqui no site ou app Correios e entregue em uma de nossas agências.</p> 
+          <div class="cards-resposta-calc">
+                <button class="botao" data-resposta-anterior="respotas-anterior"><img src="++theme++tema-do-portal-correios/static/imagens/seta_preview_azul.svg" /></button>
+                <div data-respostas="todas-respostas" class="resposta-precos-e-prazos"></div>
+                <button class="botao" data-resposta-proximo="respotas-proximo"><img src="++theme++tema-do-portal-correios/static/imagens/seta_next_azul.svg" /></button>
+          </div>
+          <div class="mensagem-revisao-preco oculta-elemento" data-mensagem-revisao-preco="mensagemRevisaoPreco"><p>*Valores sujeitos a revisão após verificação das dimensões na agência</p>
+          <p>*<a target="_blank" href="https://www.correios.com.br/central-de-informacoes/postagens-destinadas-ao-rio-grande-do-sul">Devido às intensas chuvas dos últimos dias no estado do Rio Grande do Sul, informamos que alguns serviços na região estão temporariamente suspensos ou enfrentando atrasos.</a></p></div>
+          <div class="botoes-calc" data-botoeso="botoes">
+                <button class="botao-simular" data-simular-novamente="simular-novamente">Calcular novamente</button>
+                <a class="link-botao-postagem" href="https://c.correios.com.br/PostagemPortalCorreios"><button class="botao-postagem">Prosseguir com a postagem</button></a>
+          </div>
+   </div>
+
+    <div class="imagem-container" data-imagem-precos-prazos="imagemPrecosEPrazos">
+      <a href="https://www.correios.com.br/atendimento/ferramentas/aplicativo-dos-correios">
+        <img class="imagem-principal-p oculta-elemento" src="https://www.correios.com.br/estrutura-da-pagina/precos-e-prazos/imagens/banner-calculadora/@@images/imagem_mobile/large" alt="Os descontos continuam. Envios até 30% mais baratos. Baixe o app e confira." />
+        <img class="imagem-principal-g oculta-elemento" src="https://www.correios.com.br/estrutura-da-pagina/precos-e-prazos/imagens/banner-calculadora/@@images/imagem_computador" alt="Os descontos continuam. Envios até 30% mais baratos. Baixe o app e confira." />
+      </a>
+    </div>   
+  </div>    
+</section> 
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a636f6e74726174652d6f732d636f727265696f73" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a636f6e74726174652d6f732d636f727265696f73"><section class="portlet portlet_cards" data-portlet-cards="portletCards">
+    <div class="cards cor_de_fundo_a largura-maxima" data-tipo-card="cards">
+          <div class="card-imagem-esquerda">
+               <img src="https://www.correios.com.br/home-page-2024/contrate-os-correios/card_empreendedor.png/@@images/image/preview" alt="Contrate os Correios" />
+               
+               
+               
+               
+          </div>
+          <div class="cor_de_fundo_a texto_card">
+               <div class="titulo-card-menu" style="">
+                     <h3>
+                           Contrate os Correios
+                     </h3>
+               </div>
+               
+               <p>Você é empreendedor e quer ter a melhor logística para a sua empresa? Faça seu contrato com os Correios e ajude seu negócio a alcançar todos os cantos do mundo. Com os Correios, sua empresa terá acesso a vantagens e serviços exclusivos, preços diferenciados e acesso a ferramentas gratuitas.</p>
+               <a class="card-link" href="https://c.correios.com.br/contratecorreios">
+                    <span>Contrate os Correios</span>
+               </a>
+               
+               
+               
+          </div>
+          
+    </div>
+</section> 
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a63617264732d736f6c75636f65732d7175652d6170726f78696d616d" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a63617264732d736f6c75636f65732d7175652d6170726f78696d616d"><section class="portlet portlet-solucoes-que-aproximam" data-portlet-solucoes="solucoesQueAproxima">
+    <div class="solucoes-que-aproximam largura-maxima" data-tipo-solucoes="solucoesQueAproximam">
+          <div class="card-solucoes-que-aproximam"> 
+               <img src="https://www.correios.com.br/home-page-2024/cards-diversos/correios-celular/@@images/imagem_para_link/preview" alt="Mulher em um local aberto vestindo blusa azul e mochila nas costas sorri enquanto segura e olha o celular. Centralizado o texto Correios Celular" /> 
+               <div class="texto-solucoes-que-aproximam">
+                    <h3 class="titulo-solucoes-que-aproximam">Correios Celular</h3>
+                    <p>Adquira seu chip e conheça todas as vantagens de navegar com os Correios.</p>
+                    <a class="bt link-solucoes-que-aproximam" href="https://www.correioscelular.com.br/">Clique e acesse o Correios Celular</a>
+               </div>
+          </div>
+          <div class="card-solucoes-que-aproximam"> 
+               <img src="https://www.correios.com.br/home-page-2024/cards-diversos/atendimento-comercial/@@images/imagem_para_link/preview" alt="Mulher sorrindo, com uma camisa azule crachá dos Correios, estendendo a mão." /> 
+               <div class="texto-solucoes-que-aproximam">
+                    <h3 class="titulo-solucoes-que-aproximam">Atendimento Comercial</h3>
+                    <p>Vantagens exclusivas, preços diferenciados, ferramentas gratuitas e muito mais.</p>
+                    <a class="bt link-solucoes-que-aproximam" href="https://c.correios.com.br/atendimentocomercial">Quero falar com um consultor!</a>
+               </div>
+          </div>
+          <div class="card-solucoes-que-aproximam"> 
+               <img src="https://www.correios.com.br/home-page-2024/cards-diversos/certificado-digital/@@images/imagem_para_link/preview" alt="Mulher negra, cabelos com tranças, blusa amarela, sorrindo, segura o celular com as duas mãos. Ao fundo uma imagem embaçada de uma rua" /> 
+               <div class="texto-solucoes-que-aproximam">
+                    <h3 class="titulo-solucoes-que-aproximam">Certificado Digital</h3>
+                    <p>Sua assinatura digital de forma rápida com a qualidade e confiança dos Correios.</p>
+                    <a class="bt link-solucoes-que-aproximam" href="https://c.correios.com.br/cardcertificadodigital">Clique e acesse o Certificado Digital</a>
+               </div>
+          </div>          
+    </div>
+</section> 
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a7365646578" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a7365646578"><section class="portlet portlet_cards" data-portlet-cards="portletCards">
+    <div class="cardsMenu cor_de_fundo_c largura-maxima" data-tipo-card="cardsMenu">
+          
+          <div class="cor_de_fundo_c texto_card">
+               <div class="titulo-card-menu" style="background-image: url('https://www.correios.com.br/home-page-2024/icones-2024/barra_card_menu.png/@@images/image/preview')">
+                     <h3>
+                           Sedex, a encomenda líder do Brasil!
+                     </h3>
+               </div>
+               
+               <p>Procurando confiança, qualidade e agilidade no seu envio? Vá de Sedex! O líder de entregas expressas no país. Os Correios possuem um Sedex para cada necessidade. Pensou encomenda, pensou Sedex!</p>
+               <a class="card-link" href="https://c.correios.com.br/cardsedex">
+                    <span>Conheça o Sedex Hoje</span>
+               </a>
+               <a class="card-link" href="https://www.correios.com.br/enviar/encomendas/saiba-mais-nacional">
+                    <span>Conheça o Sedex 10</span>
+               </a>
+               <a class="card-link" href="https://www.correios.com.br/enviar/encomendas/saiba-mais-nacional">
+                    <span>Conheça o Sedex 12</span>
+               </a>
+               
+          </div>
+          <div class="card-imagem-direita">
+               <img src="https://www.correios.com.br/home-page-2024/sedex/card_sedex.png/@@images/image/preview" alt="Sedex, a encomenda líder do Brasil!" />
+               
+               
+               
+               
+          </div>
+    </div>
+</section> 
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a62616e6e65722d6170726f78696d65" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a62616e6e65722d6170726f78696d65"><section class="portlet portlet_banner" data-portlet-banner="portletBanner">
+    <div class="bannerInterno">
+          <div class="banner-home oculta-elemento" data-banner-home="banner-home">
+               <a href="https://www.correios.com.br/aproxime" target="_blank">
+                    <img class="banner-home-p" src="https://www.correios.com.br/home-page-2024/aproxime/aproxime-se-e-transforme-seu-negocio/aproxime-se-e-transforme-seu-negocio/@@images/imagem_mobile/large" alt="Aproxime-se e transforme seu negócio" />
+                    <img class="banner-home-g" src="https://www.correios.com.br/home-page-2024/aproxime/aproxime-se-e-transforme-seu-negocio/aproxime-se-e-transforme-seu-negocio/@@images/imagem_computador" alt="Aproxime-se e transforme seu negócio" />
+                </a>
+                
+           </div>
+          
+          <input type="hidden" name="tempo_banner" data-tempo-banner="qtd_tempo_banner" value="0" />
+    </div>
+</section></div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a7072652d706f73746167656d" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a7072652d706f73746167656d"><section class="portlet portlet_cards" data-portlet-cards="portletCards">
+    <div class="cardCarrossel cor_de_fundo_c largura-maxima" data-tipo-card="cardCarrossel">
+          
+          <div class="cor_de_fundo_c texto_card">
+               <div class="titulo-card-menu" style="">
+                     <h3>
+                           Um Correios para chamar de SEU
+                     </h3>
+               </div>
+               
+               <p>Conheça os canais de atendimento dos Correios Um Correios pra chamar de SEU</p>
+               <a class="card-link" href="https://c.correios.com.br/cardcorreiosprachamardeseu">
+                    <span>Clique e saiba mais</span>
+               </a>
+               
+               
+               
+          </div>
+          <div class="card-imagem-direita">
+               
+               <img src="++theme++tema-do-portal-correios/static/imagens/seta_preview_cinza.svg" alt="Icones para visualizar a imagem anterior" data-cards-imagem-anterior="ImagemAnterior" />
+               
+                    <img data-imagem-card="imagemCard" src="https://www.correios.com.br/home-page-2024/um-correios-pra-chamar-de-seu/imagens_nova_home-09.png/@@images/image/preview" alt="Indexes all content in the site" />
+               
+                    <img data-imagem-card="imagemCard" src="https://www.correios.com.br/home-page-2024/um-correios-pra-chamar-de-seu/imagens_nova_home-07.png/@@images/image/preview" alt="Indexes all content in the site" />
+               
+                    <img data-imagem-card="imagemCard" src="https://www.correios.com.br/home-page-2024/um-correios-pra-chamar-de-seu/imagens_nova_home-08.png/@@images/image/preview" alt="Indexes all content in the site" />
+               
+               <img src="++theme++tema-do-portal-correios/static/imagens/seta_next_cinza.svg" alt="Icones para visualizar a próxima imagem" data-cards-proxima-imagem="ProximaImagem" />
+               <input type="hidden" name="tempo_imagem" data-card-tempo-imagem="qtdTempoImagem" value="8" />
+          </div>
+    </div>
+</section> 
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a70726f6475746f2d646f2d646961" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a70726f6475746f2d646f2d646961"><section class="portlet portlet_cards" data-portlet-cards="portletCards">
+    <div class="produtoDia cor_de_fundo_c largura-maxima" data-tipo-card="produtoDia">
+          
+          <div class="cor_de_fundo_c texto_card">
+               <div class="titulo-card-menu" style="background-image: url('https://www.correios.com.br/home-page-2024/icones-2024/barra_produto_dia.png/@@images/image/preview')">
+                     <h3>
+                           Selos
+                     </h3>
+               </div>
+               
+               <p>Selos que fizeram e fazem história!</p>
+               
+               
+               
+               <a class="card-link bt" href="https://c.correios.com.br/cardprodutododiaselos">
+                    Compre Aqui
+               </a>
+          </div>
+          <div class="card-imagem-direita">
+               <img src="https://www.correios.com.br/home-page-2024/produto-do-dia/produto_dia.png/@@images/image/preview" alt="Selos" />
+               
+               
+               
+               
+          </div>
+    </div>
+</section> 
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a61636573736f2d72617069646f" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a61636573736f2d72617069646f"><section class="portlet portlet_acesso_rapido" data-portlet-acesso-rapido="portletAcessoRapido">
+  <div class="largura-maxima">
+    <h3 class="titulo-detalhe">Acesso rápido</h3>
+          
+
+          <div class="acesso-rapido-links" data-portlet-acesso-rapido-links="acessoRapidoLinks">
+              <ul class="lista-icone">
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="http://www2.correios.com.br/sistemas/precosPrazos/">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/precos-e-prazos/@@images/imagem_para_link/thumb" alt="Preços e Prazos" />
+                        <span>Preços e Prazos</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://www.correios.com.br/falecomoscorreios/central-de-atendimento">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/central-de-atendimento/@@images/imagem_para_link/thumb" alt="Central de Atendimento" />
+                        <span>Central de Atendimento</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://cas.correios.com.br/login?service=https%3A%2F%2Fapps.correios.com.br%2Fportalimportador%2Fpages%2FpesquisarRemessaImportador%2FpesquisarRemessaImportador.jsf">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/minhas-importacoes/@@images/imagem_para_link/thumb" alt="Minhas Importações" />
+                        <span>Minhas Importações</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://buscacepinter.correios.com.br/app/endereco/index.php?t">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/busca-cep-ou-endereco/@@images/imagem_para_link/thumb" alt="Busca CEP ou Endereço" />
+                        <span>Busca CEP ou Endereço</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://www.correios.com.br/atendimento/ferramentas/aplicativo-dos-correios/aplicativo-dos-correios">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/app-correios/@@images/imagem_para_link/thumb" alt="App Correios" />
+                        <span>App Correios</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://empresas.correios.com.br/">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/correios-empresa/@@images/imagem_para_link/thumb" alt="Correios Empresa" />
+                        <span>Correios Empresa</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://mais.correios.com.br/app/index.php">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/encontre-sua-agencia/@@images/imagem_para_link/thumb" alt="Encontre sua agência" />
+                        <span>Encontre sua agência</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://cas.correios.com.br/login?service=https%3A%2F%2Fprepostagem.correios.com.br%2Flogin%2Fcas">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/pre-postagem/@@images/imagem_para_link/thumb" alt="Pré Postagem" />
+                        <span>Pré Postagem</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://efi.correios.com.br/app/simulaPrecoPrazoInternacional/index.php">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/precos-e-prazos-internacionais/@@images/imagem_para_link/thumb" alt="Preços e Prazos Internacionais" />
+                        <span>Preços e Prazos Internacionais</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://www.correios.com.br/correios-facil/correios-facil">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/contrate-os-correios/@@images/imagem_para_link/thumb" alt="Contrate os Correios" />
+                        <span>Contrate os Correios</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://www.correios.com.br/correios-para-chamar-de-seu">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/seja-um-parceiro-um-correios-para-chamar-de-seu/@@images/imagem_para_link/thumb" alt="Seja um parceiro - Um Correios Para Chamar de Seu" />
+                        <span>Seja um parceiro - Um Correios Para Chamar de Seu</span>
+                    </a>
+                </li>
+                <li data-item-acesso-rapido="itemAcessoRapido">
+                    <a class="info-link" href="https://shopping.correios.com.br/wbm/store/script/store.aspx?cd_company=ErZW8Dm9i54=">
+                        <img src="https://www.correios.com.br/home-page-2024/acesso-rapido/loja-online/@@images/imagem_para_link/thumb" alt="Loja Online" />
+                        <span>Loja Online</span>
+                    </a>
+                </li>
+              </ul>
+          </div>
+  </div>
+</section> 
+</div>
+
+<div class="portletWrapper" id="portletwrapper-706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a6e6f7469636961732d636f727265696f73" data-portlethash="706c6f6e652e666f6f746572706f72746c6574730a636f6e746578740a2f506c6f6e652f686f6d65706167650a6e6f7469636961732d636f727265696f73"><section class="portlet portlet_noticias" data-portlet-noticias="portletNoticias">
+     <div class="largura-maxima">
+          <div class="titulo-noticias" style="background-image: url('https://www.correios.com.br/home-page-2024/icones-2024/barra_produto_dia.png/@@images/image/preview')">
+               <h3>
+                     Últimas notícias
+               </h3>
+         </div>
+          <div class="conteudo-noticias" data-conteudo-noticias="contudo-noticias">
+               <img src="++theme++tema-do-portal-correios/static/imagens/seta_preview_cinza.svg" alt="Icones para visualizar a notícia anterior" data-noticia-anterior="NoticiaAnterior" />
+               <div class="bloco-noticia" data-bloco-noticia="BlocoNoticia">
+                    <a data-link-noticias="LinkNoticias" href="https://saladeimprensa.correios.com.br/arquivos/9738">
+                         <h4>Correios renova compromisso com a diversidade e equidade</h4>
+                         <h5>Estatal aderiu à 7ª edição do Programa Pró-Equidade de Gênero e Raça, que certifica empresas compromissadas com a igualdade Brasília, 29/5/2024 – Ratificando o comp ...</h5>
+                    </a>
+                    <p data-paragrafo-noticias="paragrafo-noticias">29 de Maio de 2024 13h52</p>
+               </div>
+               <div class="bloco-noticia" data-bloco-noticia="BlocoNoticia">
+                    <a data-link-noticias="LinkNoticias" href="https://saladeimprensa.correios.com.br/arquivos/9735">
+                         <h4>Correios realiza leilão de veículos no CE</h4>
+                         <h5>Os Correios irão realizar, no próximo dia 5 de junho, às 14h, licitação eletrônica para a venda de quatro veículos leves que foram utilizados pela …</h5>
+                    </a>
+                    <p data-paragrafo-noticias="paragrafo-noticias">28 de Maio de 2024 19h40</p>
+               </div>
+               <div class="bloco-noticia" data-bloco-noticia="BlocoNoticia">
+                    <a data-link-noticias="LinkNoticias" href="https://blog.correios.com.br/2024/05/16/doacoes-ao-rs-confira-novas-orientacoes-e-saiba-como-ajudar/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=doacoes-ao-rs-confira-novas-orientacoes-e-saiba-como-ajudar">
+                         <h4>Doações ao RS: confira novas orientações e saiba como ajudar</h4>
+                         <h5>Com estoque suficiente, recebimento de roupas está suspenso temporariamente nas agências dos Correios A solidariedade das brasileiras e dos brasileiros é enorme nes ...</h5>
+                    </a>
+                    <p data-paragrafo-noticias="paragrafo-noticias">16 de Maio de 2024 09h47</p>
+               </div>
+               <div class="bloco-noticia" data-bloco-noticia="BlocoNoticia">
+                    <a data-link-noticias="LinkNoticias" href="https://blog.correios.com.br/2024/05/12/maternidade-real-como-estamos-nos-tornando-uma-empresa-mais-acolhedora-para-as-maes/?utm_source=rss&amp;amp;utm_medium=rss&amp;amp;utm_campaign=maternidade-real-como-estamos-nos-tornando-uma-empresa-mais-acolhedora-para-as-maes">
+                         <h4>DIA DAS MÃES| Maternidade real: como estamos nos tornando uma empresa mais acolhedora para as mães</h4>
+                         <h5>A volta ao trabalho presencial depois que o bebê nasce é um momento angustiante para a maioria das mulheres. Uma conta que não fecha, onde o mercado exige produtivi ...</h5>
+                    </a>
+                    <p data-paragrafo-noticias="paragrafo-noticias">12 de Maio de 2024 07h57</p>
+               </div>
+               <div class="bloco-noticia" data-bloco-noticia="BlocoNoticia">
+                    <a data-link-noticias="LinkNoticias" href="https://www.correios.com.br/central-de-informacoes/boletim-aos-clientes/meu-correios-seguranca-e-confiabilidade-para-seus-dados">
+                         <h4>Meu Correios: Segurança e confiabilidade para seus dados</h4>
+                         <h5></h5>
+                    </a>
+                    <p data-paragrafo-noticias="paragrafo-noticias">09 de Maio de 2024 13h31</p>
+               </div>
+               <div class="bloco-noticia" data-bloco-noticia="BlocoNoticia">
+                    <a data-link-noticias="LinkNoticias" href="https://www.correios.com.br/central-de-informacoes/boletim-aos-clientes/postagens-destinadas-ao-rio-grande-do-sul">
+                         <h4>Comunicado 04/2024 - Postagens destinadas ao Rio Grande do Sul</h4>
+                         <h5></h5>
+                    </a>
+                    <p data-paragrafo-noticias="paragrafo-noticias">09 de Maio de 2024 08h47</p>
+               </div>
+               <img src="++theme++tema-do-portal-correios/static/imagens/seta_next_cinza.svg" alt="Icones para visualizar a próxima notícia" data-proxima-noticia="ProximaNoticia" />
+          </div>
+          <input type="hidden" name="tempo_noticias" data-tempo-noticia="qtdTempoNoticia" value="8" />
+     </div>
+</section></div>
+
+
+	</div>
+</div>
+            <!-- </div> -->
+        </div>
+    <!-- Fim Main -->
+    
+    </div><!-- In&#237;cio do rodap&#233; --><footer>
+        <!-- Div repons&#225;vel pelo portlet de rodap&#233; -->
+        <div id="portal-footer-wrapper"></div>
+        <div id="portal-footer">
+      
+
+
+<div id="rodape-content">
+	
+		<div class="rodape">
+			<div class="largura-maxima">
+				<div class="flex">
+					<div class="rodape-links" data-container-link-rodape="links-rodape">
+						<h2>Fale Conosco</h2>
+             <img class="imagem-habilita" data-imagem-evento="Habilita" src="++theme++tema-do-portal-correios/static/imagens/sinal_adicao.png" alt="sinal de adição para mostrar todas as opções do item" />
+            <img class="imagem-oculta oculta-elemento" data-imagem-evento="Oculta" src="++theme++tema-do-portal-correios/static/imagens/sinal_subtracao.png" alt="sinal de subtração para ocultar todas as opções do item" />
+						<ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://faleconosco.correios.com.br/faleconosco/app/index.php">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/registro-de-manifestacoes/@@images/imagem_para_link/icon" alt="Tela de computador azul escuro" />
+									<span>Registro de manifestações</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/falecomoscorreios/central-de-atendimento">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/central-de-atendimento/@@images/imagem_para_link/icon" alt="Balão de conversa com interrogação no meio, ambos na cor azul escuro" />
+									<span>Central de atendimento</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://faleconosco.correios.com.br/faleconosco/app/cadastro/contrate/index.php">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/solucoes-para-o-seu-negocio/@@images/imagem_para_link/icon" alt="Mala de ferramenta azul escuro" />
+									<span>Soluções para o seu negócio</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://faleconosco.correios.com.br/faleconosco/app/cadastro/suporte/index.php">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/suporte-ao-cliente-com-contrato/@@images/imagem_para_link/icon" alt="Headset azul escuro" />
+									<span>Suporte ao cliente com contrato</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/falecomoscorreios/ouvidoria">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/ouvidoria/@@images/imagem_para_link/icon" alt="Balão de conversa com três pontos, tudo na cor azul escuro" />
+									<span>Ouvidoria</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/falecomoscorreios/canais-de-denuncia">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/denuncia/@@images/imagem_para_link/icon" alt="busto de um boneco e uma lupa, ambos na cor azul escuro" />
+									<span>Denúncia</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://c.correios.com.br/seguranca">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/fale-conosco/seguranca/@@images/imagem_para_link/icon" alt="Ícone representativo da Segurança" />
+									<span>Segurança</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+     <div class="rodape-links" data-container-link-rodape="links-rodape">
+						<h2>Sobre os Correios</h2>
+             <img class="imagem-habilita" data-imagem-evento="Habilita" src="++theme++tema-do-portal-correios/static/imagens/sinal_adicao.png" alt="sinal de adição para mostrar todas as opções do item" />
+            <img class="imagem-oculta oculta-elemento" data-imagem-evento="Oculta" src="++theme++tema-do-portal-correios/static/imagens/sinal_subtracao.png" alt="sinal de subtração para ocultar todas as opções do item" />
+						<ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/acesso-a-informacao/institucional/identidade-corporativa">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/identidade-corporativa/@@images/imagem_para_link/icon" alt="documento azul com busto de um boneco e duas linhas à direita, tudo na cor azul escuro" />
+									<span>Identidade corporativa</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/educacao-e-cultura">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/educacao-e-cultura/@@images/imagem_para_link/icon" alt="cabeça redonda sem rosto, com um capelo em cima, tudo na cor azul escuro" />
+									<span>Educação e cultura</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/acesso-a-informacao/servidores/arquivos/codigo-de-conduta-etica-integridade">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/codigo-de-etica/@@images/imagem_para_link/icon" alt="livro aberto com linhas tracejadas nas folhas, tudo na cor azul escuro" />
+									<span>Código de Conduta Ética e Integridade</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/acesso-a-informacao/transparencia-e-governanca/transparencia-e-prestacao-de-contas/transparencia-e-prestacao-de-contas">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/transparencia-e-prestacao-de-contas/@@images/imagem_para_link/icon" alt="Lupa azul escuro" />
+									<span>Transparência e prestação de contas</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/acesso-a-informacao/transparencia-e-governanca/sustentabilidade/sustentabilidade">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/sustentabilidade/@@images/imagem_para_link/icon" alt="Planta" />
+									<span>Sustentabilidade</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/falecomoscorreios/politica-de-privacidade-e-cookies">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/politica-de-privacidade-e-cookies/@@images/imagem_para_link/icon" alt="cadeado azul escuro" />
+									<span>Política de privacidade e cookies</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://sgdados.correios.com.br/app/index.php">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/sobre-os-correios/minha-privacidade-nos-correios/@@images/imagem_para_link/icon" alt="Minha Privacidade nos Correios" />
+									<span>Minha Privacidade nos Correios</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+     <div class="rodape-links" data-container-link-rodape="links-rodape">
+						<h2>Informações</h2>
+             <img class="imagem-habilita" data-imagem-evento="Habilita" src="++theme++tema-do-portal-correios/static/imagens/sinal_adicao.png" alt="sinal de adição para mostrar todas as opções do item" />
+            <img class="imagem-oculta oculta-elemento" data-imagem-evento="Oculta" src="++theme++tema-do-portal-correios/static/imagens/sinal_subtracao.png" alt="sinal de subtração para ocultar todas as opções do item" />
+						<ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="http://shopping.correios.com.br/wbm/store/script/store.aspx?cd_company=ErZW8Dm9i54=">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/loja-online-dos-correios/@@images/imagem_para_link/icon" alt="carrinho de compras azul escuro" />
+									<span>Loja online dos Correios</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="http://www.postalis.org.br/">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/postalis/@@images/imagem_para_link/icon" alt="Logotipo Postalis" />
+									<span>Postalis</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.postalsaude.com.br/">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/postal-saude/@@images/imagem_para_link/icon" alt="Logotipo Postal Saúde" />
+									<span>Postal Saúde</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.gov.br/mcom/pt-br">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/ministerio-das-comunicacoes/@@images/imagem_para_link/icon" alt="logo do Governo Federal na cor azul escuro" />
+									<span>Ministério das Comunicações</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/acesso-a-informacao/acoes-e-programas/carta-de-servicos-aos-usuarios">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/carta-de-servico-ao-usuario/@@images/imagem_para_link/icon" alt="Carta de Serviço ao Usuário" />
+									<span>Carta de Serviço ao Usuário</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/falecomoscorreios/sei-protocolo-eletronico">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/sei-protocolo-eletronico/@@images/imagem_para_link/icon" alt="SEI - Protocolo Eletrônico" />
+									<span>SEI - Protocolo Eletrônico</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.correios.com.br/acesso-a-informacao/">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/outros-sites/acesso-a-informacao/@@images/imagem_para_link/icon" alt="Acesso à Informação" />
+									<span>Acesso à Informação</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+     <div class="rodape-links" data-container-link-rodape="links-rodape">
+						<h2>Siga os Correios</h2>
+             <img class="imagem-habilita" data-imagem-evento="Habilita" src="++theme++tema-do-portal-correios/static/imagens/sinal_adicao.png" alt="sinal de adição para mostrar todas as opções do item" />
+            <img class="imagem-oculta oculta-elemento" data-imagem-evento="Oculta" src="++theme++tema-do-portal-correios/static/imagens/sinal_subtracao.png" alt="sinal de subtração para ocultar todas as opções do item" />
+						<ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.youtube.com/@correiosoficial">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/youtube/@@images/imagem_para_link/icon" alt="Youtube - Correios" />
+									<span>Youtube</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://twitter.com/correiosBR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/twitter-correios/@@images/imagem_para_link/icon" alt="Twitter - Correios" />
+									<span>Twitter Correios</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.instagram.com/correiosoficial/">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/instagram/@@images/imagem_para_link/icon" alt="Instagram Correios" />
+									<span>Instagram</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://www.facebook.com/correios/?locale=pt_BR">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/facebook/@@images/imagem_para_link/icon" alt="Facebook Correios" />
+									<span>Facebook</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://br.linkedin.com/company/correios">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/siga-os-correios/linkedin/@@images/imagem_para_link/icon" alt="Linkedin Correios" />
+									<span>Linkedin</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+     <div class="rodape-links" data-container-link-rodape="links-rodape">
+						<h2>Aplicativos Correios</h2>
+             <img class="imagem-habilita" data-imagem-evento="Habilita" src="++theme++tema-do-portal-correios/static/imagens/sinal_adicao.png" alt="sinal de adição para mostrar todas as opções do item" />
+            <img class="imagem-oculta oculta-elemento" data-imagem-evento="Oculta" src="++theme++tema-do-portal-correios/static/imagens/sinal_subtracao.png" alt="sinal de subtração para ocultar todas as opções do item" />
+						<ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://apps.apple.com/br/developer/ect-empresa-brasileira-de-correios-e-telegrafos/id866480129">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/aplicativo-os-correios/aplicativo-correios-apple/@@images/imagem_para_link/icon" alt="Aplicativo Apple" />
+									<span>Aplicativo Correios - Apple</span>
+								</a>
+							</li>
+						</ul>
+      <ul class="lista-icone oculta-elemento">
+							<li>
+								<a href="https://play.google.com/store/apps/developer?id=Empresa+Brasileira+de+Correios+e+Telegrafos&amp;amp;amp;hl=pt">
+									<img class="proporcao-link-rodape" src="https://www.correios.com.br/estrutura-da-pagina/rodape/aplicativo-os-correios/aplicativo-correios-android/@@images/imagem_para_link/icon" alt="Aplicativo Correios - Android" />
+									<span>Aplicativo Correios - Android</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+    <div class="fim-pagina">
+      <div class="largura-maxima">
+        <div class="marca-gov">
+          <img src="https://www.correios.com.br/estrutura-da-pagina/logo-correios/marca-gov.png/@@images/image" alt="Imagem com a logo dos Correios e do Governo Federal" />
+        </div>
+        <div class="copyright">
+          <span>© Copyright 2024 Correios</span>			
+        </div>
+      </div>
+    </div>
+	
+
+    <!-- Código do Chatbot -->
+    <div id="chat-correios" class="" tabindex="-1">
+      <div id="carol-inicio" class="oculta-chat-correios">
+        <div id="header-balao">
+          <div class="carol-balao">
+            <div class="carol-texto">Olá, eu sou a Carol! Em que posso ajudar?</div>
+            <div class="carol-seta"></div>
+          </div>
+          <div id="carol-fecha">X</div>
+        </div>
+        <div id="carol-corpo">
+          <img id="carol-corpo-img" src="https://www.correios.com.br/estrutura-da-pagina/carol/corpo/carol_corpo_-saia_amarela.png/@@images/image" alt="carol_corpo_ saia_amarela.png" />
+        </div>
+      </div>
+      <div id="carol-icone" class="oculta-chat-correios">
+        <img id="carol-corpo-img" src="https://www.correios.com.br/estrutura-da-pagina/carol/rosto/rosto_carol_nova-1.png/@@images/image" alt="rosto_carol_nova (1).png" />
+      </div>
+    
+      <div id="chatbot-correios" class="oculta-chat-correios" tabindex="-1">
+        <div class="top-bar" id="topo-chat-correios">
+            <span id="habilita-audio" class="habilitar-audio">
+              <img src="++theme++tema-do-portal-correios/static/imagens/som-baixo.svg" alt="Imagem com ícone indicando o local para habilitar o áudio" />
+            </span>
+            <span id="desabilita-audio" class="habilitar-audio oculta-chat-correios">
+              <img src="++theme++tema-do-portal-correios/static/imagens/som-mudo.svg" alt="Imagem com ícone indicando o local para desabilitar o áudio" />
+            </span>
+            <span id="control-minimizar" class="tob-bar-control minimizar">
+              <img src="++theme++tema-do-portal-correios/static/imagens/minimizar.svg" alt="Imagem com ícone indicando o local para minimizar a caixa de diálogo com a assitente virtual dos Correios" />
+            </span>
+            <span id="control-fechar" class="tob-bar-control fechar">
+              <img src="++theme++tema-do-portal-correios/static/imagens/fechar.svg" alt="Imagem com ícone indicando o local para fechar a caixa de diálogo com a assitente virtual dos Correios" />
+            </span>
+        </div>
+        <div class="conteudo-chatbot">
+          <div class="middle" id="middle">
+            <div id="messagesList">
+            </div>
+          </div>
+          <div id="typing" class="typing hide">
+            <div class="bubble">
+              <div class="ellipsis one"></div>
+              <div class="ellipsis two"></div>
+              <div class="ellipsis three"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-bar">
+          <div class="chat">
+            <input type="text" id="messageInput" placeholder="Faça uma pergunta" />
+            <button type="submit" id="sendButton" class="def">
+            </button>
+          </div>
+        </div>
+        <div id="survey" class="survey hide oculta-chat-correios"></div>
+      </div>
+    </div>
+    <!-- Fim do Código do Chatbot -->
+
+    <!-- Início do Código de aceitação de cookies-->
+    <div id="cookiesId" class="cookiesCorreios">
+        <div class="cookiesConteudo">
+            <div class="cookiesCorreiosDescricao">
+                <p>Coletamos cookies exclusivamente com a finalidade de manter estatísticas de experiência dos clientes. 
+                  As informações coletadas são anonimizadas, de forma que não identificam os usuários que efetuam o acesso. 
+                  Ao utilizar este site, você concorda com a nossa política de monitoramento de cookies. 
+                  Para maiores informações, consulte nossa  
+                  <a class="linkPrivacidade" href="https://www.correios.com.br/fale-com-os-correios/politica-de-privacidade-e-notas-legais/">
+                  <strong>Política de Privacidade e Notas Legais</strong></a>.
+                </p>
+            </div>
+            <div class="cookiesBotaoAceitar">
+                <a id="btnCookie" class="botaoAceitarCookie">Aceito</a>
+            </div>
+        </div>
+    </div>
+    <!-- Fim do Código de aceitação de cookies-->
+</div>
+
+<!-- fim do código do Vlibras do governo Federal-->
+
+<script src="++theme++tema-do-portal-correios/static/js/main.js"></script>
+
+    </div>
+    </footer><!-- Fim do rodap&#233; --></body>
+</html>

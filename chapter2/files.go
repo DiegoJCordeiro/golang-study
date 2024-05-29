@@ -16,7 +16,7 @@ var (
 
 func createFile() {
 
-	file, errCreate := os.Create("./file_test.txt")
+	file, errCreate := os.Create("./files/test.txt")
 
 	if errCreate != nil {
 		panic(errCreate)
@@ -31,7 +31,7 @@ func createFile() {
 
 func writeFile() {
 
-	errWrite := os.WriteFile("./file_test.txt", []byte("- First Line here."), 777)
+	errWrite := os.WriteFile("./test.txt", []byte("- First Line here."), 777)
 
 	if errWrite != nil {
 		panic(errWrite)
@@ -39,7 +39,7 @@ func writeFile() {
 }
 
 func writeLineToLineFile() {
-	file, errOpen := os.OpenFile("./file_test.txt", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
+	file, errOpen := os.OpenFile("./files/test.txt", os.O_APPEND|os.O_WRONLY|os.O_CREATE, 0644)
 
 	if errOpen != nil {
 		panic(errOpen)
@@ -68,7 +68,7 @@ func writeLineToLineFile() {
 
 func readFile() {
 
-	file, errOpen := os.ReadFile("./file_test.txt")
+	file, errOpen := os.ReadFile("./files/test.txt")
 
 	if errOpen != nil {
 		panic(errOpen)
@@ -79,7 +79,7 @@ func readFile() {
 
 func readLineToLineFile() {
 
-	file, errOpen := os.Open("./file_test.txt")
+	file, errOpen := os.Open("./files/test.txt")
 
 	if errOpen != nil {
 		panic(errOpen)
