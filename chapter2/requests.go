@@ -2,11 +2,25 @@ package main
 
 import (
 	"bufio"
+	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"os"
 )
+
+type ViaCep struct {
+	Cep         string `json:"cep"`
+	Logradouro  string `json:"logradouro"`
+	Complemento string `json:"complemento"`
+	Bairro      string `json:"bairro"`
+	Localidade  string `json:"localidade"`
+	Uf          string `json:"uf"`
+	Ibge        string `json:"ibge"`
+	Gia         string `json:"gia"`
+	Ddd         string `json:"ddd"`
+	Siafi       string `json:"siafi"`
+}
 
 func requestHttpGet() {
 
@@ -79,12 +93,39 @@ func writeResponseToFile(response []byte) {
 	}
 }
 
+func requestCep(cep string) {
+
+	var url = "https://viacep.com.br/ws/" + cep + "/json/"
+
+	httpRequest, errorRequest := http.Get(url)
+
+	if errorRequest != nil {
+		panic(errorRequest)
+	}
+
+	defer httpRequest.Body.Close()
+
+	response, errorResponse := io.ReadAll(httpRequest.Body)
+
+	if errorResponse != nil {
+		panic(errorResponse)
+	}
+	var viaCep ViaCep
+
+	errorUnmarshal := json.Unmarshal(response, &viaCep)
+
+	if errorUnmarshal != nil {
+		panic(errorUnmarshal)
+	}
+
+	fmt.Printf("%+v \n", viaCep)
+}
+
 func Lesson2() {
 
 	fmt.Println("Lesson 2 - Http Requests")
 
 	requestHttpGet()
 	requestHttpPost()
-
-	fmt.Println("---")
+	requestCep("09980490")
 }
