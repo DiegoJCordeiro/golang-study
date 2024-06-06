@@ -1,0 +1,18 @@
+{{ template "header-mail.html" }}
+    <table>
+        <thead>
+            <tr>
+                <th>Mail Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range . }}
+            <tr>
+                <td>
+                    {{ .Message | ToUpperCase }}
+                </td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+{{ template "footer-mail.html" }}

@@ -1,1 +1,2 @@
-URL: https://tip.golang.org/doc/
+Main Documentation: https://tip.golang.org/doc/
+Template Documentation: https://pkg.go.dev/html/template
