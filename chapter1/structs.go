@@ -15,8 +15,27 @@ type Client struct {
 	Name        string
 	Age         int32
 	Nationality string
-	Address     Address
-	Admin       bool
+	// Address is a composition
+	Address Address
+	// GeneralRegistry is a composition
+	GeneralRegistry GeneralRegistry
+	// NaturalPersonsRegister is a composition
+	NaturalPersonsRegister NaturalPersonsRegister
+	Admin                  bool
+}
+
+type Identification struct {
+	ID string
+}
+
+type GeneralRegistry struct {
+	// Identification is an inheritance
+	Identification
+}
+
+type NaturalPersonsRegister struct {
+	// Identification is an inheritance
+	Identification
 }
 
 type Person interface {
@@ -44,6 +63,16 @@ func fillStructs() *Client {
 	firstClient.Address = firstAddress
 	firstClient.Nationality = "Nationality"
 	firstClient.Admin = false
+	firstClient.GeneralRegistry = GeneralRegistry{
+		Identification{
+			ID: "1",
+		},
+	}
+	firstClient.NaturalPersonsRegister = NaturalPersonsRegister{
+		Identification{
+			ID: "2",
+		},
+	}
 
 	return &firstClient
 }

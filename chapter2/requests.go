@@ -20,6 +20,7 @@ type ViaCep struct {
 	Gia         string `json:"gia"`
 	Ddd         string `json:"ddd"`
 	Siafi       string `json:"siafi"`
+	HttpMethod  string `json:"http_method"`
 }
 
 func requestHttpGet() {

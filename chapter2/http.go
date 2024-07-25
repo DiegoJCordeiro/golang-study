@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bytes"
+	"context"
 	"encoding/json"
 	"fmt"
 	"html/template"
@@ -8,7 +10,15 @@ import (
 	"net/http"
 	"strconv"
 	"strings"
+	"time"
 )
+
+type Posts struct {
+	Id     int    `json:"id"`
+	UserId int    `json:"userId"`
+	Title  string `json:"title"`
+	Body   string `json:"body"`
+}
 
 type Mail struct {
 	Message string `json:"message"`
@@ -26,6 +36,78 @@ func (home Mail) ServeHTTP(response http.ResponseWriter, request *http.Request) 
 	}
 }
 
+func SendPostsHandler(response http.ResponseWriter, request *http.Request) {
+
+	var posts Posts
+	requestBody, errorReadAll := io.ReadAll(request.Body)
+
+	if errorReadAll != nil {
+		panic(errorReadAll)
+	}
+
+	errorJsonUnmarshal := json.Unmarshal(requestBody, &posts)
+
+	if errorJsonUnmarshal != nil {
+		panic(errorJsonUnmarshal)
+	}
+
+	posts, errorPosts := sendPosts(&posts)
+
+	if errorPosts != nil {
+		response.WriteHeader(http.StatusInternalServerError)
+	}
+
+	response.Header().Set("Content-Type", "application/json")
+	errorEncoder := json.NewEncoder(response).Encode(posts)
+
+	if errorEncoder != nil {
+		response.WriteHeader(http.StatusInternalServerError)
+	}
+}
+
+func sendPosts(posts *Posts) (Posts, error) {
+
+	var postsResponse Posts
+	postsMarshaled, errorMarshal := json.Marshal(posts)
+
+	if errorMarshal != nil {
+		return postsResponse, errorMarshal
+	}
+
+	ctx := context.Background()
+	ctx, cancel := context.WithTimeout(ctx, time.Second*3)
+
+	defer cancel()
+
+	requestPosts, errorPost := http.NewRequestWithContext(ctx, "POST", "https://jsonplaceholder.typicode.com/posts", bytes.NewBuffer(postsMarshaled))
+
+	if errorPost != nil {
+		return postsResponse, errorPost
+	}
+
+	responsePosts, errorDefaultClient := http.DefaultClient.Do(requestPosts)
+
+	if errorDefaultClient != nil {
+		return postsResponse, errorDefaultClient
+	}
+
+	responseRead, errorReadAll := io.ReadAll(responsePosts.Body)
+
+	defer responsePosts.Body.Close()
+
+	if errorReadAll != nil {
+		return postsResponse, errorReadAll
+	}
+
+	errorUnMarshal := json.Unmarshal(responseRead, &postsResponse)
+
+	if errorUnMarshal != nil {
+		return postsResponse, errorUnMarshal
+	}
+
+	return postsResponse, nil
+}
+
 func FindCepHandler(response http.ResponseWriter, request *http.Request) {
 
 	cep := request.URL.Query().Get("cep")
@@ -36,21 +118,22 @@ func FindCepHandler(response http.ResponseWriter, request *http.Request) {
 		response.WriteHeader(http.StatusInternalServerError)
 	}
 
+	response.WriteHeader(http.StatusOK)
 	response.Header().Set("Content-Type", "application/json")
+	viaCep.HttpMethod = "GET"
 	errorEncoder := json.NewEncoder(response).Encode(viaCep)
 
 	if errorEncoder != nil {
 		response.WriteHeader(http.StatusInternalServerError)
 	}
-
-	response.WriteHeader(http.StatusOK)
 }
 
 func FindCep(cep string) (*ViaCep, error) {
 
 	var url = "https://viacep.com.br/ws/" + cep + "/json/"
 
-	response, errorRequest := http.Get(url)
+	httpClient := http.Client{Timeout: 5 * time.Second}
+	response, errorRequest := httpClient.Get(url)
 
 	if errorRequest != nil {
 		return nil, errorRequest
@@ -69,6 +152,8 @@ func FindCep(cep string) (*ViaCep, error) {
 	if errorUnmarshal != nil {
 		return nil, errorUnmarshal
 	}
+
+	viaCep.HttpMethod = "GET"
 
 	return &viaCep, nil
 }
@@ -116,11 +201,13 @@ func Lesson5() {
 	serverMux := http.NewServeMux()
 
 	fileServer := http.FileServer(http.Dir("./static"))
-	serverMux.Handle("/", fileServer)
-	serverMux.Handle("/mail", Mail{Message: "Welcome to the Mail"})
 
-	serverMux.HandleFunc("/address", FindCepHandler)
-	serverMux.HandleFunc("/handler-template", TemplateHandler)
+	serverMux.Handle("GET /", fileServer)
+	serverMux.Handle("GET /mail", Mail{Message: "Welcome to the Mail"})
+
+	serverMux.HandleFunc("GET /address", FindCepHandler)
+	serverMux.HandleFunc("GET /handler-template", TemplateHandler)
+	serverMux.HandleFunc("POST /posts", SendPostsHandler)
 
 	errorServerHttp := http.ListenAndServe(":8080", serverMux)
 

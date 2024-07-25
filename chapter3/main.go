@@ -1,10 +1,16 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 
-	fmt.Printf("Hello World - Chapter 3\n")
+	Lesson1()
+	breakLine()
+	Lesson2()
+	breakLine()
+}
+
+func breakLine() {
+
+	fmt.Println("---")
 }

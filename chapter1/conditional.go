@@ -18,6 +18,10 @@ func usingSwitch(first int) {
 func usingIf(first, second int) {
 	if first < second {
 		panic("Conditional (If): The second parameter is major than first")
+	} else if first > second {
+		fmt.Printf("Conditional (If): The parameters are OK.\n")
+	} else if first == second {
+		fmt.Printf("Conditional (If): The parameters are OK.\n")
 	} else {
 		fmt.Printf("Conditional (If): The parameters are OK.\n")
 	}

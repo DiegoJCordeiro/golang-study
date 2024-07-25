@@ -6,13 +6,13 @@ import (
 )
 
 // Anonymous Function - Sum Two Values - Return total and error
-func sumWithAnonymousFunctions(firstValue int, secondValue int) (int, error) {
+func sumWithAnonymousFunctions(firstValue int, secondValue int) (total int, err error) {
 
-	total, err := func() (int, error) {
+	total, err = func() (int, error) {
 		return sumOnlyTwoValues(firstValue, secondValue)
 	}()
 
-	return total, err
+	return
 }
 
 // Default Function - Sum Two Values - Return total and error
