@@ -11,18 +11,22 @@ type People struct {
 	FirstName   string
 	LastName    string
 	Description string
-	Roles       []roles.Roles `gorm:"many2many:people_roles"`
+	Roles       []roles.Roles
 	gorm.Model
 }
 
-func NewPeople(firstName string, lastName string, description string, roles []roles.Roles) (*People, error) {
+func NewPeople(id int, firstName string, lastName string, description string, roles []roles.Roles) (*People, error) {
 
-	if roles != nil && len(roles) > 0 {
+	if id == 0 {
+		return nil, errors.New("id cannot be 0")
+	}
 
+	if roles == nil || len(roles) == 0 {
 		return nil, errors.New("roles not must be nil or empty")
 	}
 
 	return &People{
+		ID:          id,
 		FirstName:   firstName,
 		LastName:    lastName,
 		Description: description,
