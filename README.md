@@ -21,44 +21,6 @@
 
 *Através do terminal, entre no diretório do projeto, e logo após, entre no diretório do capítulo.*
 
-***Chapter 1:***
-
-```bash
-cd projeto-go-lang/chapter1
-```
-
-***Chapter 2:***
-
-```bash
-cd projeto-go-lang/chapter2
-```
-
-*Execute o comando mvn clean (**Maven**) para limpar o build do projeto e mvn install instala-lo.*
-
-**Windows:**
-
-***Chapter 1:***
-``` bash
-go build -o ../builds/__chapter1.exe github.com/DiegoJCordeiro/golang-study/chapter1
-```
-
-***Chapter 2:***
-``` bash
-go build -o ../builds/__chapter2.exe github.com/DiegoJCordeiro/golang-study/chapter2
-```
-
-**Linux:**
-
-***Chapter 1:***
-``` bash
-go build -o ../builds/__chapter1.sh github.com/DiegoJCordeiro/golang-study/chapter1
-```
-
-***Chapter 2:***
-``` bash
-go build -o ../builds/__chapter2.sh github.com/DiegoJCordeiro/golang-study/chapter2
-```
-
 *Após executar os comando anteriores, abra a pasta builds, conforme o comando a seguir.*
 
 ``` 

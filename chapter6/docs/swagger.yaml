@@ -1,0 +1,261 @@
+basePath: /
+definitions:
+  dto.Error:
+    properties:
+      message:
+        type: string
+    type: object
+  dto.RoleDto:
+    properties:
+      description:
+        type: string
+      name:
+        type: string
+    type: object
+  dto.UserDto:
+    properties:
+      email:
+        example: test.test@gmail.com
+        type: string
+      name:
+        example: Test123
+        type: string
+      password:
+        example: Pass123
+        type: string
+    type: object
+host: localhost:8080
+info:
+  contact:
+    email: diegocordeiro.contatos@gmail.com
+    name: Diego Cordeiro
+    url: https://github.com/DiegoJCordeiro
+  description: API for Go Expert Postgraduate.
+  license:
+    name: Diego Cordeiro License
+    url: https://github.com/DiegoJCordeiro/golang-study/blob/main/LICENSE
+  termsOfService: http://swagger.io/terms/
+  title: Postgraduate - GO Expert
+  version: "1.0"
+paths:
+  /role:
+    delete:
+      consumes:
+      - application/json
+      description: This endpoint is used to delete an Role.
+      parameters:
+      - description: Role Request
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.RoleDto'
+      responses:
+        "200":
+          description: OK
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/dto.Error'
+      security:
+      - ApiKeyAuth: []
+      summary: Delete Role
+      tags:
+      - Role
+    get:
+      consumes:
+      - application/json
+      description: This endpoint is used to Get All Role.
+      parameters:
+      - description: Page Number
+        in: query
+        name: page
+        required: true
+        type: string
+      - description: Limit Items on Page
+        in: query
+        name: limit
+        required: true
+        type: string
+      - description: Sort Page By asc or desc
+        in: query
+        name: sort
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/dto.RoleDto'
+            type: array
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/dto.Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/dto.Error'
+      security:
+      - ApiKeyAuth: []
+      summary: Get All Roles
+      tags:
+      - Role
+    post:
+      consumes:
+      - application/json
+      description: This endpoint is used to create an Role.
+      parameters:
+      - description: Role Request
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.RoleDto'
+      responses:
+        "201":
+          description: Created
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/dto.Error'
+      security:
+      - ApiKeyAuth: []
+      summary: Create Role
+      tags:
+      - Role
+    put:
+      consumes:
+      - application/json
+      description: This endpoint is used to update an Role.
+      parameters:
+      - description: Role Request
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.RoleDto'
+      responses:
+        "204":
+          description: No Content
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/dto.Error'
+      security:
+      - ApiKeyAuth: []
+      summary: Update Role
+      tags:
+      - Role
+  /role/findByName:
+    get:
+      consumes:
+      - application/json
+      description: This endpoint is used to Get All Role.
+      parameters:
+      - description: Role Name
+        in: query
+        name: name
+        required: true
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/dto.RoleDto'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/dto.Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/dto.Error'
+      security:
+      - ApiKeyAuth: []
+      summary: Get By Role Name
+      tags:
+      - Role
+  /user:
+    post:
+      consumes:
+      - application/json
+      description: This endpoint is used to create an User.
+      parameters:
+      - description: User Request
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.UserDto'
+      responses:
+        "201":
+          description: Created
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/dto.Error'
+      summary: Create User
+      tags:
+      - User
+  /user/findByName:
+    get:
+      consumes:
+      - application/json
+      description: This endpoint is used to Get an User.
+      parameters:
+      - description: User name
+        in: query
+        name: username
+        type: string
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/dto.UserDto'
+        "404":
+          description: Not Found
+          schema:
+            $ref: '#/definitions/dto.Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/dto.Error'
+      security:
+      - ApiKeyAuth: []
+      summary: Get an User
+      tags:
+      - User
+  /user/token:
+    post:
+      consumes:
+      - application/json
+      description: This endpoint is used to create an User Token.
+      parameters:
+      - description: User Request
+        in: body
+        name: request
+        required: true
+        schema:
+          $ref: '#/definitions/dto.UserDto'
+      responses:
+        "200":
+          description: OK
+        "401":
+          description: Unauthorized
+          schema:
+            $ref: '#/definitions/dto.Error'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/dto.Error'
+      summary: Create User Token
+      tags:
+      - Token
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

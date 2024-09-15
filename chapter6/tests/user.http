@@ -1,0 +1,27 @@
+### POST - Create new user.
+POST http://localhost:8080/user HTTP/1.1
+Content-Type: application/json
+
+{
+  "name":"User Test 123",
+  "email":"user.test123@email.com",
+  "password":"12345"
+}
+
+### POST - Create new user token.
+POST http://localhost:8080/user/token HTTP/1.1
+Content-Type: application/json
+
+{
+  "name":"User Test 123",
+  "email":"user.test123@email.com",
+  "password":"12345"
+}
+
+> {% client.global.set("auth_token", response.body.token); %}
+
+### GET - Get Role By Name.
+GET http://localhost:8080/user/findByName?username=User Test HTTP/1.1
+Authorization: Bearer {{auth_token}}
+Content-Type: application/json
+###
