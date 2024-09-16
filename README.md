@@ -93,11 +93,12 @@ cd ./builds
 
 *Seção referente as documentações das tecnologias aplicadas sob o projeto de estudos.*
 
-| Tecnologia         | Descrição                                                    | URL                                     |
-| ------------------ | ------------------------------------------------------------ | --------------------------------------- |
-| ***Golang Doc***   | Utilizado para consultar a documentação Golang.              | [Link](https://go.dev/doc/)             |
-| ***Effective Go*** | Utilizado para consultar as melhores práticas da linguagem Golang. | [Link](https://go.dev/doc/effective_go) |
-| ***Exemplos***     | Exemplos criados durante o estudo em Golang.                 | [Link](./docs/pages/Examples.md)        |
+| Tecnologia         | Descrição                                                          | URL                                        |
+|--------------------|--------------------------------------------------------------------|--------------------------------------------|
+| ***Golang Doc***   | Utilizado para consultar a documentação Golang.                    | [Link](https://go.dev/doc/)                |
+| ***Effective Go*** | Utilizado para consultar as melhores práticas da linguagem Golang. | [Link](https://go.dev/doc/effective_go)    |
+| ***Books***        | Lista de livros de Golang                                          | [Link](https://github.com/dariubs/GoBooks) | 
+| ***Exemplos***     | Exemplos criados durante o estudo em Golang.                       | [Link](./docs/pages/Examples.md)           |
 
 </br>
 
