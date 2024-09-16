@@ -68,11 +68,11 @@ cd ./builds
 *Seção referente aos desejos técnicos que pretendemos aplicar neste ciclo de estudo.*
 
 | Nome                             | Descrição                                                 | Concluído S/N |
-| -------------------------------- | --------------------------------------------------------- | ------------- |
-| ***Conceitos Básicos***          | Aprender a implementar os conceitos básicos da linguagem. | S             |
-| ***Conexão com Banco de Dados*** | Aprender a implementar a conexão com a base de dados.     | N             |
-| ***Criação de Micro-serviços***  | Aprender a implementar o estilo arquitetural REST.        | N             |
-| ***Golang Efetivo***             | Aprender as melhores práticas para criação de um projeto. | N             |
+| -------------------------------- | --------------------------------------------------------- |--------------|
+| ***Conceitos Básicos***          | Aprender a implementar os conceitos básicos da linguagem. | S            |
+| ***Conexão com Banco de Dados*** | Aprender a implementar a conexão com a base de dados.     | S            |
+| ***Criação de Micro-serviços***  | Aprender a implementar o estilo arquitetural REST.        | S            |
+| ***Golang Efetivo***             | Aprender as melhores práticas para criação de um projeto. | N            |
 
 </br>
 
