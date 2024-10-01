@@ -16,47 +16,6 @@
 
 <hr>
 
-
-#### **Como executar**
-
-*Através do terminal, entre no diretório do projeto, e logo após, entre no diretório do capítulo.*
-
-*Após executar os comando anteriores, abra a pasta builds, conforme o comando a seguir.*
-
-``` 
-cd ./builds
-```
-
-*Para finalizar, agora execute o comando no terminal, para executar a aplicação.*
-
-**Windows:**
-
-***Chapter 1:***
-``` bash
-./__chapter1.exe
-```
-
-***Chapter 2:***
-``` bash
-./__chapter2.exe
-```
-
-**Linux**
-
-***Chapter 1:***
-``` bash
-./__chapter1.sh
-```
-
-***Chapter 2:***
-``` bash
-./__chapter2.sh
-```
-
-</br>
-
-<hr>
-
 #### **Descrição**
 
 *Este repositório é referente ao estudo da Linguagem de programação Go.*
@@ -78,14 +37,18 @@ cd ./builds
 
 #### **Estrutura**
 
-*Seção referente as estruturas aplicadas sob o projeto de estudos.*
+*Seção referente as estruturas aplicadas sob o projeto de estudos. Todos os diretórios descritos abaixo, contém arquivos com a extensão .go.*
 
-| Pasta           | Endereço     | Descrição                                                    |
-|-----------------|--------------| ------------------------------------------------------------ |
-| ***/chapter1*** | *./chapter1* | Contém todas os arquivos .go necessários durante os de introdução a linguagem Go. |
-| ***/chapter2*** | *./chapter2* | Contém todas os arquivos .go necessários durante os de introdução a linguagem Go. |
-| ***/builds***   | *./builds*   | Contém todos os arquivos compilados referente ao projeto de estudos. |
-| ***/docs***     | *./docs*     | Arquivos de documentação referente aos materiais utilizados. |
+| Pasta           | Endereço     | Descrição                                                                           |
+|-----------------|--------------|-------------------------------------------------------------------------------------|
+| ***/chapter1*** | *./chapter1* | Diretório referente a estudos introdutórios da linguagem Go.                        |
+| ***/chapter2*** | *./chapter2* | Diretório referente a estudos introdutórios da linguagem Go.                        |
+| ***/chapter3*** | *./chapter3* | Diretório referente a estudos introdutórios da linguagem Go.                        |
+| ***/chapter4*** | *./chapter4* | Diretório referente a estudos de base de dados da linguagem Go.                     |
+| ***/chapter5*** | *./chapter5* | Diretório referente a estudos de testes da linguagem Go.                            |
+| ***/chapter6*** | *./chapter6* | Diretório referente a estudos de criação de REST APIs com a linguagem Go.           |
+| ***/builds***   | *./builds*   | Diretório referente a todos os arquivos compilados referente ao projeto de estudos. |
+| ***/docs***     | *./docs*     | Diretório referente a documentação referente aos materiais utilizados.  |
 
 </br>
 
