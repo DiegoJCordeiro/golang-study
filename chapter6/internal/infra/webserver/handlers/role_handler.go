@@ -48,13 +48,13 @@ func (roleHandler *RoleHandlerImpl) CreateRole(fiberContext *fiber.Ctx) error {
 	errDecode := json.NewDecoder(body).Decode(&roleDto)
 
 	if errDecode != nil {
-		return fiber.ErrBadRequest
+		return errDecode
 	}
 
 	var errCreatedRole = roleHandler.Service.CreateRole(&roleDto)
 
 	if errCreatedRole != nil {
-		return fiber.ErrInternalServerError
+		return errCreatedRole
 	}
 
 	fiberContext.Response().SetStatusCode(http.StatusCreated)
@@ -82,13 +82,13 @@ func (roleHandler *RoleHandlerImpl) UpdateRole(fiberContext *fiber.Ctx) error {
 	errDecode := json.NewDecoder(body).Decode(&roleDto)
 
 	if errDecode != nil {
-		return fiber.ErrBadRequest
+		return errDecode
 	}
 
 	var errUpdatedRole = roleHandler.Service.UpdateRole(&roleDto)
 
 	if errUpdatedRole != nil {
-		return fiber.ErrInternalServerError
+		return errUpdatedRole
 	}
 
 	fiberContext.Response().SetStatusCode(http.StatusNoContent)
@@ -116,13 +116,13 @@ func (roleHandler *RoleHandlerImpl) DeleteRole(fiberContext *fiber.Ctx) error {
 	errDecode := json.NewDecoder(body).Decode(&roleDto)
 
 	if errDecode != nil {
-		return fiber.ErrBadRequest
+		return errDecode
 	}
 
 	var errDeleteRole = roleHandler.Service.DeleteRole(&roleDto)
 
 	if errDeleteRole != nil {
-		return fiber.ErrInternalServerError
+		return errDeleteRole
 	}
 
 	fiberContext.Response().SetStatusCode(http.StatusOK)
@@ -160,20 +160,20 @@ func (roleHandler *RoleHandlerImpl) GetAllRole(fiberContext *fiber.Ctx) error {
 	rolesDto, errGetAllRole := roleHandler.Service.GetAllRole(page, limit, fiberContext.Query("sort"))
 
 	if errGetAllRole != nil {
-		return fiber.ErrNotFound
+		return errGetAllRole
 	}
 
 	body, errorMarshal := json.Marshal(&rolesDto)
 
 	if errorMarshal != nil {
-		return fiber.ErrInternalServerError
+		return errorMarshal
 	}
 
 	fiberContext.Response().SetStatusCode(http.StatusOK)
 	_, errResponse := fiberContext.Response().BodyWriter().Write(body)
 
 	if errResponse != nil {
-		return fiber.ErrInternalServerError
+		return errResponse
 	}
 
 	return nil
@@ -198,14 +198,14 @@ func (roleHandler *RoleHandlerImpl) GetRoleByName(fiberContext *fiber.Ctx) error
 	roleDto, errorGetRoleByName := roleHandler.Service.GetRoleByName(&roleName)
 
 	if errorGetRoleByName != nil {
-		return fiber.ErrNotFound
+		return errorGetRoleByName
 	}
 
 	fiberContext.Response().SetStatusCode(http.StatusOK)
 	errorConvertJSON := fiberContext.JSON(roleDto)
 
 	if errorConvertJSON != nil && roleDto == nil {
-		return fiber.ErrInternalServerError
+		return errorConvertJSON
 	}
 
 	return nil

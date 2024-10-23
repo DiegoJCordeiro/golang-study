@@ -2,6 +2,7 @@ package main
 
 import (
 	_ "github.com/DiegoJCordeiro/golang-study/chapter6/docs"
+	"github.com/DiegoJCordeiro/golang-study/chapter6/internal/handler"
 	"github.com/DiegoJCordeiro/golang-study/chapter6/internal/infra/database"
 	"github.com/DiegoJCordeiro/golang-study/chapter6/internal/infra/environment"
 	"github.com/DiegoJCordeiro/golang-study/chapter6/internal/infra/webserver/handlers"
@@ -42,7 +43,9 @@ func main() {
 	var roleService service.RoleService = service.NewRoleService(roleDB)
 	var roleHandler handlers.RoleHandler = handlers.NewRoleHandler(roleService)
 
-	fiberServer := fiber.New()
+	fiberServer := fiber.New(fiber.Config{
+		ErrorHandler: handler.NewErrorAPI().ErrorHandler,
+	})
 
 	userApi := fiberServer.Group("/user")
 	userApi.Post("/", userHandler.CreateUser)

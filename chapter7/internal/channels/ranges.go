@@ -17,7 +17,7 @@ func Lesson6() {
 }
 
 func readChannelMessage(channelMes chan string) {
-	for message := range channelMes {
+	for message := range <-channelMes {
 		fmt.Println(message)
 	}
 }

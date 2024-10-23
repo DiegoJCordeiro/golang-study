@@ -43,13 +43,13 @@ func (userHandler *UserHandlerImpl) CreateUser(fiberContext *fiber.Ctx) error {
 	errDecode := json.NewDecoder(body).Decode(&userDto)
 
 	if errDecode != nil {
-		return fiber.ErrBadRequest
+		return errDecode
 	}
 
 	errorToCreate := userHandler.Service.Create(&userDto)
 
 	if errorToCreate != nil {
-		return fiber.ErrInternalServerError
+		return errorToCreate
 	}
 
 	return nil
@@ -74,13 +74,13 @@ func (userHandler *UserHandlerImpl) GetUserByName(fiberContext *fiber.Ctx) error
 	userDto, errGetUserByName := userHandler.Service.GetUserByName(&username)
 
 	if errGetUserByName != nil {
-		return fiber.ErrNotFound
+		return errGetUserByName
 	}
 
 	errorConvertJson := fiberContext.JSON(userDto)
 
 	if errorConvertJson != nil {
-		return fiber.ErrInternalServerError
+		return errorConvertJson
 	}
 
 	fiberContext.Response().SetStatusCode(http.StatusOK)
