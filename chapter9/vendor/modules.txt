@@ -1,0 +1,5 @@
+# github.com/DiegoJCordeiro/golang-private-repositories v0.0.0-20241024164817-2352214a9d14
+## explicit; go 1.22.3
+github.com/DiegoJCordeiro/golang-private-repositories/pkg/events
+# github.com/streadway/amqp v1.1.0
+## explicit; go 1.10
