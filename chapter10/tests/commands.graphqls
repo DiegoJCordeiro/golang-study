@@ -1,0 +1,82 @@
+query queryCategories {
+  categories {
+    id,
+    name,
+    description
+  }
+}
+
+query queryCourses {
+  courses {
+    id,
+    name,
+    description
+  }
+}
+
+query queryCategoryWithCourses {
+  categories {
+    id,
+    name,
+    description
+    courses {
+      id,
+      name,
+      description
+    }
+  }
+}
+
+query queryCoursesWithCategory {
+  courses {
+    id,
+    name,
+    description
+    category {
+      id,
+      name,
+      description
+    }
+  }
+}
+
+mutation registerCategory {
+  registerCategory (
+    input: {
+      name: "Category 1",
+      description: "Category Description 1"
+    }
+  )
+  {
+    id
+    name
+  }
+}
+
+mutation registerCourse {
+  registerCourse (
+    input: {
+      name: "Course 1",
+      description: "Course Description 1"
+      categoryId: "0fe8c66b-07ff-4f68-99dc-a14b85fa4828"
+    }
+  )
+  {
+    id
+    name
+  }
+}
+
+mutation registerSecondCourseWithCategoryOne {
+  registerCourse (
+    input: {
+      name: "Course 2",
+      description: "Course Description 2"
+      categoryId: "0fe8c66b-07ff-4f68-99dc-a14b85fa4828"
+    }
+  )
+  {
+    id
+    name
+  }
+}
