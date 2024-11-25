@@ -1,0 +1,3 @@
+### GET - Get Role By Name.
+GET http://localhost:8080/exchange HTTP/1.1
+###
