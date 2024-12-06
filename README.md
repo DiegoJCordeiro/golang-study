@@ -39,19 +39,22 @@
 
 *Seção referente as estruturas aplicadas sob o projeto de estudos. Todos os diretórios descritos abaixo, contém arquivos com a extensão .go.*
 
-| Pasta           | Endereço     | Descrição                                                                           |
-|-----------------|--------------|-------------------------------------------------------------------------------------|
-| ***/chapter1*** | *./chapter1* | Diretório referente a estudos introdutórios da linguagem Go.                        |
-| ***/chapter2*** | *./chapter2* | Diretório referente a estudos introdutórios da linguagem Go.                        |
-| ***/chapter3*** | *./chapter3* | Diretório referente a estudos introdutórios da linguagem Go.                        |
-| ***/chapter4*** | *./chapter4* | Diretório referente a estudos de base de dados da linguagem Go.                     |
-| ***/chapter5*** | *./chapter5* | Diretório referente a estudos de testes da linguagem Go.                            |
-| ***/chapter6*** | *./chapter6* | Diretório referente a estudos de criação de REST APIs com a linguagem Go.           |
-| ***/chapter7*** | *./chapter7* | Diretório referente a estudos de threads/canais com a linguagem Go.                 |
-| ***/chapter8*** | *./chapter8* | Diretório referente a estudos de rabbitmq com a linguagem Go.                       |
-| ***/chapter9*** | *./chapter9* | Diretório referente a estudos de repos privados com a linguagem Go.                 |
-| ***/builds***   | *./builds*   | Diretório referente a todos os arquivos compilados referente ao projeto de estudos. |
-| ***/docs***     | *./docs*     | Diretório referente a documentação referente aos materiais utilizados.              |
+| Pasta            | Endereço      | Descrição                                                                           |
+|------------------|---------------|-------------------------------------------------------------------------------------|
+| ***/chapter1***  | *./chapter1*  | Diretório referente a estudos introdutórios da linguagem Go.                        |
+| ***/chapter2***  | *./chapter2*  | Diretório referente a estudos introdutórios da linguagem Go.                        |
+| ***/chapter3***  | *./chapter3*  | Diretório referente a estudos introdutórios da linguagem Go.                        |
+| ***/chapter4***  | *./chapter4*  | Diretório referente a estudos de base de dados da linguagem Go.                     |
+| ***/chapter5***  | *./chapter5*  | Diretório referente a estudos de testes da linguagem Go.                            |
+| ***/chapter6***  | *./chapter6*  | Diretório referente a estudos de criação de REST APIs com a linguagem Go.           |
+| ***/chapter7***  | *./chapter7*  | Diretório referente a estudos de threads/canais com a linguagem Go.                 |
+| ***/chapter8***  | *./chapter8*  | Diretório referente a estudos de rabbitmq com a linguagem Go.                       |
+| ***/chapter9***  | *./chapter9*  | Diretório referente a estudos de graphql com a linguagem Go.                        |
+| ***/chapter10*** | *./chapter10* | Diretório referente a estudos de graphql com a linguagem Go.                        |
+| ***/chapter11*** | *./chapter11* | Diretório referente a estudos de GRPC com a linguagem Go.                           |
+| ***/chapter12*** | *./chapter12* | Diretório referente a estudos de Cobra CLI com a linguagem Go.                      |
+| ***/builds***    | *./builds*    | Diretório referente a todos os arquivos compilados referente ao projeto de estudos. |
+| ***/docs***      | *./docs*      | Diretório referente a documentação referente aos materiais utilizados.              |
 
 </br>
 
