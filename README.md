@@ -53,6 +53,9 @@
 | ***/chapter10*** | *./chapter10* | Diretório referente a estudos de graphql com a linguagem Go.                        |
 | ***/chapter11*** | *./chapter11* | Diretório referente a estudos de GRPC com a linguagem Go.                           |
 | ***/chapter12*** | *./chapter12* | Diretório referente a estudos de Cobra CLI com a linguagem Go.                      |
+| ***/chapter13*** | *./chapter13* | Diretório referente a estudos de SQLC e SQLX com a linguagem Go.                    |
+| ***/chapter14*** | *./chapter14* | Diretório referente a estudos de UOW com a linguagem Go.                            |
+| ***/chapter15*** | *./chapter15* | Diretório referente a estudos de Injection Dependency com a linguagem Go.           |
 | ***/builds***    | *./builds*    | Diretório referente a todos os arquivos compilados referente ao projeto de estudos. |
 | ***/docs***      | *./docs*      | Diretório referente a documentação referente aos materiais utilizados.              |
 

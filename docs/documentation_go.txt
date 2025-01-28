@@ -1,2 +1,14 @@
-Main Documentation: https://tip.golang.org/doc/
-Template Documentation: https://pkg.go.dev/html/template
+Documentation:
+    - https://go.dev/doc/
+
+List of Books:
+    - https://github.com/dariubs/GoBooks
+
+Libraries:
+    - https://gorm.io/
+    - https://docs.gofiber.io/
+    - https://go-chi.io/#/
+    - https://sqlc.dev/
+    - https://cobra.dev/
+    - https://jmoiron.github.io/sqlx/
+    - https://github.com/golang-migrate/migrate

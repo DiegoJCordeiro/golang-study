@@ -20,7 +20,7 @@ func (dispatch *EventDispatcherImpl) AddHandler(eventName string, handler EventH
 	if _, ok := dispatch.handlers[eventName]; ok {
 		for _, handlerIterated := range dispatch.handlers[eventName] {
 			if handlerIterated == handler {
-				return errors.New("event handler already exists")
+				return errors.New("event converter already exists")
 			}
 		}
 	}
@@ -41,7 +41,7 @@ func (dispatch *EventDispatcherImpl) Remove(eventName string, handler EventHandl
 		}
 	}
 
-	return errors.New("handler not exists in event")
+	return errors.New("converter not exists in event")
 }
 
 func (dispatch *EventDispatcherImpl) Has(eventName string, handler EventHandler) error {
@@ -54,7 +54,7 @@ func (dispatch *EventDispatcherImpl) Has(eventName string, handler EventHandler)
 		}
 	}
 
-	return errors.New("event handler not exists")
+	return errors.New("event converter not exists")
 }
 
 func (dispatch *EventDispatcherImpl) Dispatch(event Event) error {
